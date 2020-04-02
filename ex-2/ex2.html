@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    /* set the CSS */
+
+    .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 2px;
+    }
+
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 60px;
+        height: 20px;
+        padding: 2px;
+        font: 12px sans-serif;
+        background: lightsteelblue;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+    }
+</style>
+
+<body>
+
+    <!-- load the d3.js library -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+
+        // set the dimensions and margins of the graph
+        var margin = { top: 20, right: 20, bottom: 30, left: 50 },
+            width = 960 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+
+        // set the ranges
+        var x = d3.scaleLinear().range([0, width]);
+        var y = d3.scaleLinear().range([height, 0]);
+
+        // define the 1st line
+        var valueline2 = d3.line()
+            .x(function (d) { return x(d.n); })
+            .y(function (d) { return y(d.two); });
+
+        // define the 2nd line
+        var valueline3 = d3.line()
+            .x(function (d) { return x(d.n); })
+            .y(function (d) { return y(d.three); });
+
+        var valueline4 = d3.line()
+            .x(function (d) { return x(d.n); })
+            .y(function (d) { return y(d.four); });
+
+        var valueline5 = d3.line()
+            .x(function (d) { return x(d.n); })
+            .y(function (d) { return y(d.five); });
+
+        var valueline6 = d3.line()
+            .x(function (d) { return x(d.n); })
+            .y(function (d) { return y(d.six); });
+
+        var valueline7 = d3.line()
+            .x(function (d) { return x(d.n); })
+            .y(function (d) { return y(d.seven); });
+
+        var valueline8 = d3.line()
+            .x(function (d) { return x(d.n); })
+            .y(function (d) { return y(d.eight); });
+
+        var valueline9 = d3.line()
+            .x(function (d) { return x(d.n); })
+            .y(function (d) { return y(d.nine); });
+
+        // Define the div for the tooltip
+        var div = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+        // append the svg obgect to the body of the page
+        // appends a 'group' element to 'svg'
+        // moves the 'group' element to the top left margin
+        var svg = d3.select("body").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        // Get the data
+        d3.csv("diffs.csv", function (error, data) {
+            if (error) throw error;
+
+            // format the data
+            data.forEach(function (d) {
+                d.n = +d.n;
+                d.two = +d.two;
+                d.three = +d.three;
+                d.four = +d.four;
+                d.five = +d.five;
+                d.six = +d.six;
+                d.seven = +d.seven;
+                d.eight = +d.eight;
+                d.nine = +d.nine;
+            });
+
+            // Scale the range of the data
+            x.domain(d3.extent(data, function (d) { return d.n; }));
+            y.domain([0, d3.max(data, function (d) {
+                return Math.max(d.three, d.five, d.seven, d.nine);
+            })]);
+
+            svg.append("path")
+                .data([data])
+                .attr("class", "line")
+                .style("stroke", "red")
+                .attr("data-legend", "3")
+                .attr("d", valueline3);
+
+            svg.append("path")
+                .data([data])
+                .attr("class", "line")
+                .style("stroke", "blue")
+                .attr("data-legend", "5")
+                .attr("d", valueline5);
+
+            svg.append("path")
+                .data([data])
+                .attr("class", "line")
+                .style("stroke", "green")
+                .attr("data-legend", "7")
+                .attr("d", valueline7);
+
+            svg.append("path")
+                .data([data])
+                .attr("class", "line")
+                .style("stroke", "purple")
+                .attr("data-legend", "9")
+                .attr("d", valueline9);
+
+            // Add the X Axis
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x));
+
+            // Add the Y Axis
+            svg.append("g")
+                .call(d3.axisLeft(y));
+
+            // Add the scatterplot
+            svg.selectAll("dot")
+                .data(data)
+                .enter().append("circle")
+                .attr("r", 1.5)
+                .attr("cx", function (d) { return x(d.n); })
+                .attr("cy", function (d) { return y(d.three); })
+                .on("mouseover", function (d) {
+                    div.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    div.html("n = 3")
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+                })
+                .on("mouseout", function (d) {
+                    div.transition()
+                        .duration(1000)
+                        .style("opacity", 0);
+                });
+
+            svg.selectAll("dot")
+                .data(data)
+                .enter().append("circle")
+                .attr("r", 1.5)
+                .attr("cx", function (d) { return x(d.n); })
+                .attr("cy", function (d) { return y(d.five); })
+                .on("mouseover", function (d) {
+                    div.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    div.html("n = 5")
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+                })
+                .on("mouseout", function (d) {
+                    div.transition()
+                        .duration(1000)
+                        .style("opacity", .9);
+                });
+
+            svg.selectAll("dot")
+                .data(data)
+                .enter().append("circle")
+                .attr("r", 1.5)
+                .attr("cx", function (d) { return x(d.n); })
+                .attr("cy", function (d) { return y(d.seven); })
+                .on("mouseover", function (d) {
+                    div.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    div.html("n = 7")
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+                })
+                .on("mouseout", function (d) {
+                    div.transition()
+                        .duration(1000)
+                        .style("opacity", 0);
+                });
+
+            svg.selectAll("dot")
+                .data(data)
+                .enter().append("circle")
+                .attr("r", 1.5)
+                .attr("cx", function (d) { return x(d.n); })
+                .attr("cy", function (d) { return y(d.nine); })
+                .on("mouseover", function (d) {
+                    div.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    div.html("n = 9")
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+                })
+                .on("mouseout", function (d) {
+                    div.transition()
+                        .duration(1000)
+                        .style("opacity", 0);
+                });
+
+
+            // Add title
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 10 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .style("text-decoration", "underline")
+                .text("Differences between n-primes");
+        });
+
+    </script>
+</body>
