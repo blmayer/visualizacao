@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    .boundary {
+        fill: none;
+        stroke: #FFF;
+        stroke-linejoin: round;
+    }
+
+    .q0-9 {
+        fill: rgb(247, 251, 255);
+    }
+
+    .q1-9 {
+        fill: rgb(222, 235, 247);
+    }
+
+    .q2-9 {
+        fill: rgb(198, 219, 239);
+    }
+
+    .q3-9 {
+        fill: rgb(158, 202, 225);
+    }
+
+    .q4-9 {
+        fill: rgb(107, 174, 214);
+    }
+
+    .q5-9 {
+        fill: rgb(66, 146, 198);
+    }
+
+    .q6-9 {
+        fill: rgb(33, 113, 181);
+    }
+
+    .q7-9 {
+        fill: rgb(8, 81, 156);
+    }
+
+    .q8-9 {
+        fill: rgb(8, 48, 107);
+    }
+
+    .q8-9 {
+        fill: rgb(8, 48, 107);
+    }
+</style>
+
+<body>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="http://d3js.org/queue.v1.min.js"></script>
+    <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/coffee-script/1.7.1/coffee-script.min.js"></script>
+    <script type="text/coffeescript">
+width = 1000
+height = 1160
+formatNumber = d3.format ',.1f'
+
+quantize = d3.scale.quantize()
+    .domain [0.0, 6.0]
+    .range d3.range(13).map (i) -> "q" + i + "-9"
+
+svg = d3.select("body").append("svg")
+  .attr 'width', width
+  .attr 'height', height
+
+// transform: scale(5.5) translate(xpx, ypx)
+d3.json "sp-counties.json", (error, sp) ->
+  if error
+    console.error error
+  else
+    counties = topojson.feature sp, sp.objects.counties
+    projection = d3.geo.mercator()
+      .scale 4900
+      .translate [width * 4.65, -1700]
+
+    path = d3.geo.path().projection projection
+
+    svg.append 'g'
+        .attr 'class', 'counties'
+      .selectAll 'path'
+        .data counties.features
+      .enter().append 'path'
+        .attr 'class', (d) -> quantize d.properties.salary
+        .attr 'local', (d) -> d.local
+        .attr 'd', path
+        .append 'title'
+           .text (d) ->
+             salario = formatNumber d.properties.salary
+             "#{d.properties.name}\nSalário médio:\n#{salario} Salários mínimos"
+</script>
+
+</body>
