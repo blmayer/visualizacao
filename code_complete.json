@@ -1,0 +1,758 @@
+[
+    {
+        "class": "Supplier",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/order/deltas_test.go"
+    },
+    {
+        "class": "Product",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/order/deltas_test.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/order/changes.go"
+    },
+    {
+        "class": "Cart",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/order/changes.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 11,
+        "package": "main",
+        "file": "cmd/order/changes.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/order/changes.go"
+    },
+    {
+        "class": "Product",
+        "value": 14,
+        "package": "main",
+        "file": "cmd/order/changes.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 5,
+        "package": "main",
+        "file": "cmd/order/algorithm.go"
+    },
+    {
+        "class": "Cart",
+        "value": 8,
+        "package": "main",
+        "file": "cmd/order/algorithm.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 21,
+        "package": "main",
+        "file": "cmd/order/algorithm.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/order/algorithm.go"
+    },
+    {
+        "class": "Product",
+        "value": 14,
+        "package": "main",
+        "file": "cmd/order/algorithm.go"
+    },
+    {
+        "class": "User",
+        "value": 11,
+        "package": "main",
+        "file": "cmd/order/order.go"
+    },
+    {
+        "class": "Store",
+        "value": 21,
+        "package": "main",
+        "file": "cmd/order/order.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 24,
+        "package": "main",
+        "file": "cmd/order/order.go"
+    },
+    {
+        "class": "Cart",
+        "value": 12,
+        "package": "main",
+        "file": "cmd/order/order.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 23,
+        "package": "main",
+        "file": "cmd/order/order.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/order/order.go"
+    },
+    {
+        "class": "Product",
+        "value": 20,
+        "package": "main",
+        "file": "cmd/order/order.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/order/bruteForceSupplier.go"
+    },
+    {
+        "class": "Cart",
+        "value": 3,
+        "package": "main",
+        "file": "cmd/order/bruteForceSupplier.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 34,
+        "package": "main",
+        "file": "cmd/order/bruteForceSupplier.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 11,
+        "package": "main",
+        "file": "cmd/order/bruteForceSupplier.go"
+    },
+    {
+        "class": "Product",
+        "value": 27,
+        "package": "main",
+        "file": "cmd/order/bruteForceSupplier.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/order/bruteForce.go"
+    },
+    {
+        "class": "Cart",
+        "value": 9,
+        "package": "main",
+        "file": "cmd/order/bruteForce.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 11,
+        "package": "main",
+        "file": "cmd/order/bruteForce.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/order/bruteForce.go"
+    },
+    {
+        "class": "Product",
+        "value": 13,
+        "package": "main",
+        "file": "cmd/order/bruteForce.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 4,
+        "package": "main",
+        "file": "cmd/order/common.go"
+    },
+    {
+        "class": "Cart",
+        "value": 3,
+        "package": "main",
+        "file": "cmd/order/common.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 44,
+        "package": "main",
+        "file": "cmd/order/common.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 3,
+        "package": "main",
+        "file": "cmd/order/common.go"
+    },
+    {
+        "class": "Product",
+        "value": 25,
+        "package": "main",
+        "file": "cmd/order/common.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/order/calculateQuotation_test.go"
+    },
+    {
+        "class": "User",
+        "value": 5,
+        "package": "main",
+        "file": "cmd/order/main.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/order/main.go"
+    },
+    {
+        "class": "Product",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/order/matchQuantities_test.go"
+    },
+    {
+        "class": "User",
+        "value": 9,
+        "package": "main",
+        "file": "cmd/registration/user.go"
+    },
+    {
+        "class": "Store",
+        "value": 20,
+        "package": "main",
+        "file": "cmd/registration/user.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/registration/user.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 6,
+        "package": "main",
+        "file": "cmd/registration/user.go"
+    },
+    {
+        "class": "User",
+        "value": 6,
+        "package": "main",
+        "file": "cmd/registration/cnpja.go"
+    },
+    {
+        "class": "Store",
+        "value": 3,
+        "package": "main",
+        "file": "cmd/registration/cnpja.go"
+    },
+    {
+        "class": "User",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/registration/main.go"
+    },
+    {
+        "class": "User",
+        "value": 5,
+        "package": "main",
+        "file": "cmd/charge/banking.go"
+    },
+    {
+        "class": "Store",
+        "value": 9,
+        "package": "main",
+        "file": "cmd/charge/banking.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/charge/banking.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/charge/banking.go"
+    },
+    {
+        "class": "Product",
+        "value": 7,
+        "package": "main",
+        "file": "cmd/charge/banking.go"
+    },
+    {
+        "class": "User",
+        "value": 4,
+        "package": "main",
+        "file": "cmd/charge/main.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 3,
+        "package": "main",
+        "file": "cmd/charge/main.go"
+    },
+    {
+        "class": "User",
+        "value": 6,
+        "package": "main",
+        "file": "cmd/autocomplete/main.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 11,
+        "package": "main",
+        "file": "cmd/autocomplete/main.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/autocomplete/main.go"
+    },
+    {
+        "class": "Product",
+        "value": 22,
+        "package": "main",
+        "file": "cmd/autocomplete/main.go"
+    },
+    {
+        "class": "User",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/auth/token.go"
+    },
+    {
+        "class": "User",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/auth/main.go"
+    },
+    {
+        "class": "User",
+        "value": 8,
+        "package": "main",
+        "file": "cmd/user/functions.go"
+    },
+    {
+        "class": "Cart",
+        "value": 18,
+        "package": "main",
+        "file": "cmd/user/functions.go"
+    },
+    {
+        "class": "Product",
+        "value": 11,
+        "package": "main",
+        "file": "cmd/user/functions.go"
+    },
+    {
+        "class": "User",
+        "value": 14,
+        "package": "main",
+        "file": "cmd/user/main.go"
+    },
+    {
+        "class": "Cart",
+        "value": 7,
+        "package": "main",
+        "file": "cmd/user/main.go"
+    },
+    {
+        "class": "User",
+        "value": 4,
+        "package": "main",
+        "file": "cmd/backend/list.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 5,
+        "package": "main",
+        "file": "cmd/backend/list.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/backend/list.go"
+    },
+    {
+        "class": "Product",
+        "value": 14,
+        "package": "main",
+        "file": "cmd/backend/list.go"
+    },
+    {
+        "class": "User",
+        "value": 6,
+        "package": "main",
+        "file": "cmd/backend/user.go"
+    },
+    {
+        "class": "Store",
+        "value": 8,
+        "package": "main",
+        "file": "cmd/backend/user.go"
+    },
+    {
+        "class": "Cart",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/backend/user.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/backend/user.go"
+    },
+    {
+        "class": "User",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/backend/feedback.go"
+    },
+    {
+        "class": "Store",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/backend/addStore_test.go"
+    },
+    {
+        "class": "User",
+        "value": 7,
+        "package": "main",
+        "file": "cmd/backend/main.go"
+    },
+    {
+        "class": "Store",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/backend/main.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 8,
+        "package": "main",
+        "file": "cmd/backend/main.go"
+    },
+    {
+        "class": "Cart",
+        "value": 5,
+        "package": "main",
+        "file": "cmd/backend/main.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/backend/main.go"
+    },
+    {
+        "class": "Product",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/backend/main.go"
+    },
+    {
+        "class": "User",
+        "value": 6,
+        "package": "main",
+        "file": "cmd/backend/main_test.go"
+    },
+    {
+        "class": "Store",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/backend/main_test.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 10,
+        "package": "main",
+        "file": "cmd/backend/main_test.go"
+    },
+    {
+        "class": "Cart",
+        "value": 8,
+        "package": "main",
+        "file": "cmd/backend/main_test.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/backend/main_test.go"
+    },
+    {
+        "class": "User",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/intranet/list.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/intranet/list.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/intranet/list.go"
+    },
+    {
+        "class": "Product",
+        "value": 3,
+        "package": "main",
+        "file": "cmd/intranet/list.go"
+    },
+    {
+        "class": "User",
+        "value": 4,
+        "package": "main",
+        "file": "cmd/intranet/intranet.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 3,
+        "package": "main",
+        "file": "cmd/intranet/intranet.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/intranet/intranet.go"
+    },
+    {
+        "class": "User",
+        "value": 6,
+        "package": "main",
+        "file": "cmd/intranet/simulator.go"
+    },
+    {
+        "class": "Cart",
+        "value": 6,
+        "package": "main",
+        "file": "cmd/intranet/simulator.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 1,
+        "package": "main",
+        "file": "cmd/intranet/simulator.go"
+    },
+    {
+        "class": "User",
+        "value": 4,
+        "package": "main",
+        "file": "cmd/intranet/main.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 4,
+        "package": "main",
+        "file": "cmd/intranet/main.go"
+    },
+    {
+        "class": "Cart",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/intranet/main.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/intranet/main.go"
+    },
+    {
+        "class": "Product",
+        "value": 2,
+        "package": "main",
+        "file": "cmd/intranet/main.go"
+    },
+    {
+        "class": "User",
+        "value": 4,
+        "package": "order",
+        "file": "internal/order/main.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 9,
+        "package": "order",
+        "file": "internal/order/main.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 1,
+        "package": "types",
+        "file": "internal/types/types.go"
+    },
+    {
+        "class": "Product",
+        "value": 2,
+        "package": "types",
+        "file": "internal/types/types.go"
+    },
+    {
+        "class": "User",
+        "value": 5,
+        "package": "charge",
+        "file": "internal/charge/main.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 1,
+        "package": "charge",
+        "file": "internal/charge/main.go"
+    },
+    {
+        "class": "User",
+        "value": 8,
+        "package": "proto",
+        "file": "internal/proto/main.go"
+    },
+    {
+        "class": "Store",
+        "value": 13,
+        "package": "proto",
+        "file": "internal/proto/main.go"
+    },
+    {
+        "class": "Quotation",
+        "value": 4,
+        "package": "proto",
+        "file": "internal/proto/main.go"
+    },
+    {
+        "class": "Cart",
+        "value": 3,
+        "package": "proto",
+        "file": "internal/proto/main.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 7,
+        "package": "proto",
+        "file": "internal/proto/main.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 3,
+        "package": "proto",
+        "file": "internal/proto/main.go"
+    },
+    {
+        "class": "Product",
+        "value": 8,
+        "package": "proto",
+        "file": "internal/proto/main.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 2,
+        "package": "date",
+        "file": "internal/date/days_test.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 2,
+        "package": "date",
+        "file": "internal/date/days_test.go"
+    },
+    {
+        "class": "User",
+        "value": 2,
+        "package": "date",
+        "file": "internal/date/main.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 6,
+        "package": "date",
+        "file": "internal/date/main.go"
+    },
+    {
+        "class": "Delivery",
+        "value": 2,
+        "package": "date",
+        "file": "internal/date/main.go"
+    },
+    {
+        "class": "Product",
+        "value": 1,
+        "package": "utils",
+        "file": "internal/utils/setBestPrice.go"
+    },
+    {
+        "class": "Product",
+        "value": 1,
+        "package": "utils",
+        "file": "internal/utils/sort.go"
+    },
+    {
+        "class": "User",
+        "value": 6,
+        "package": "sintegra",
+        "file": "internal/sintegra/main.go"
+    },
+    {
+        "class": "Store",
+        "value": 3,
+        "package": "sintegra",
+        "file": "internal/sintegra/main.go"
+    },
+    {
+        "class": "User",
+        "value": 1,
+        "package": "receipt",
+        "file": "internal/receipt/main.go"
+    },
+    {
+        "class": "Store",
+        "value": 8,
+        "package": "receipt",
+        "file": "internal/receipt/main.go"
+    },
+    {
+        "class": "Supplier",
+        "value": 5,
+        "package": "supplier",
+        "file": "internal/supplier/main.go"
+    },
+    {
+        "class": "User",
+        "value": 5,
+        "package": "service",
+        "file": "internal/service/main.go"
+    },
+    {
+        "class": "Store",
+        "value": 1,
+        "package": "store",
+        "file": "internal/store/main.go"
+    }
+]

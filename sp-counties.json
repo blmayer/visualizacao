@@ -10,7 +10,7 @@
                     "properties": {
                         "name": "ADAMANTINA",
                         "population": 33797,
-                        
+                        "salary": 2.1
                     },
                     "arcs": [
                         [
@@ -59,7 +59,7 @@
                     "type": "Polygon",
                     "id": "3500303",
                     "properties": {
-                        "name": "AGUA\u00cd",
+                        "name": "AGUAÍ",
                         "population": 32168,
                         "salary": 2.3
                     },
@@ -79,7 +79,7 @@
                     "type": "Polygon",
                     "id": "3500402",
                     "properties": {
-                        "name": "\u00c1GUAS DA PRATA",
+                        "name": "ÁGUAS DA PRATA",
                         "population": 7580,
                         "salary": 2.2
                     },
@@ -236,7 +236,7 @@
                     "type": "Polygon",
                     "id": "3500501",
                     "properties": {
-                        "name": "\u00c1GUAS DE LIND\u00d3IA",
+                        "name": "ÁGUAS DE LINDÓIA",
                         "population": 17261,
                         "salary": 2.0
                     },
@@ -253,7 +253,7 @@
                     "type": "Polygon",
                     "id": "3500550",
                     "properties": {
-                        "name": "\u00c1GUAS DE SANTA B\u00c1RBARA",
+                        "name": "ÁGUAS DE SANTA BÁRBARA",
                         "population": 5598,
                         "salary": 2.4
                     },
@@ -274,7 +274,7 @@
                     "type": "Polygon",
                     "id": "3500600",
                     "properties": {
-                        "name": "\u00c1GUAS DE S\u00c3O PEDRO",
+                        "name": "ÁGUAS DE SÃO PEDRO",
                         "population": 2703,
                         "salary": 2.1
                     },
@@ -385,7 +385,7 @@
                     "type": "Polygon",
                     "id": "3501004",
                     "properties": {
-                        "name": "ALTIN\u00d3POLIS",
+                        "name": "ALTINÓPOLIS",
                         "population": 15609,
                         "salary": 2.1
                     },
@@ -440,7 +440,7 @@
                     "type": "Polygon",
                     "id": "3501152",
                     "properties": {
-                        "name": "ALUM\u00cdNIO",
+                        "name": "ALUMÍNIO",
                         "population": 16845,
                         "salary": 5.0
                     },
@@ -461,7 +461,7 @@
                     "type": "Polygon",
                     "id": "3501202",
                     "properties": {
-                        "name": "\u00c1LVARES FLORENCE",
+                        "name": "ÁLVARES FLORENCE",
                         "population": 3901,
                         "salary": 2.0
                     },
@@ -481,7 +481,7 @@
                     "type": "Polygon",
                     "id": "3501301",
                     "properties": {
-                        "name": "\u00c1LVARES MACHADO",
+                        "name": "ÁLVARES MACHADO",
                         "population": 23506,
                         "salary": 2.3
                     },
@@ -509,7 +509,7 @@
                     "type": "Polygon",
                     "id": "3501400",
                     "properties": {
-                        "name": "\u00c1LVARO DE CARVALHO",
+                        "name": "ÁLVARO DE CARVALHO",
                         "population": 4650,
                         "salary": 2.2
                     },
@@ -530,7 +530,7 @@
                     "type": "Polygon",
                     "id": "3501509",
                     "properties": {
-                        "name": "ALVINL\u00c2NDIA",
+                        "name": "ALVINLÂNDIA",
                         "population": 3000,
                         "salary": 1.9
                     },
@@ -622,7 +622,7 @@
                     "type": "Polygon",
                     "id": "3501707",
                     "properties": {
-                        "name": "AM\u00c9RICO BRASILIENSE",
+                        "name": "AMÉRICO BRASILIENSE",
                         "population": 34522,
                         "salary": 2.3
                     },
@@ -640,7 +640,7 @@
                     "type": "Polygon",
                     "id": "3501806",
                     "properties": {
-                        "name": "AM\u00c9RICO DE CAMPOS",
+                        "name": "AMÉRICO DE CAMPOS",
                         "population": 5706,
                         "salary": 2.0
                     },
@@ -688,7 +688,7 @@
                     "type": "Polygon",
                     "id": "3502002",
                     "properties": {
-                        "name": "ANAL\u00c2NDIA",
+                        "name": "ANALÂNDIA",
                         "population": 4289,
                         "salary": 2.4
                     },
@@ -867,7 +867,7 @@
                     "type": "Polygon",
                     "id": "3502705",
                     "properties": {
-                        "name": "APIA\u00cd",
+                        "name": "APIAÍ",
                         "population": 25196,
                         "salary": 2.2
                     },
@@ -888,7 +888,7 @@
                     "type": "Polygon",
                     "id": "3502754",
                     "properties": {
-                        "name": "ARA\u00c7ARIGUAMA",
+                        "name": "ARAÇARIGUAMA",
                         "population": 17085,
                         "salary": 2.9
                     },
@@ -908,7 +908,7 @@
                     "type": "Polygon",
                     "id": "3502804",
                     "properties": {
-                        "name": "ARA\u00c7ATUBA",
+                        "name": "ARAÇATUBA",
                         "population": 181618,
                         "salary": 2.5
                     },
@@ -937,7 +937,7 @@
                     "type": "Polygon",
                     "id": "3502903",
                     "properties": {
-                        "name": "ARA\u00c7OIABA DA SERRA",
+                        "name": "ARAÇOIABA DA SERRA",
                         "population": 27323,
                         "salary": 2.3
                     },
@@ -989,7 +989,7 @@
                     "type": "Polygon",
                     "id": "3503158",
                     "properties": {
-                        "name": "ARAPE\u00cd",
+                        "name": "ARAPEÍ",
                         "population": 2492,
                         "salary": 1.8
                     },
@@ -1053,7 +1053,7 @@
                     "type": "Polygon",
                     "id": "3503356",
                     "properties": {
-                        "name": "ARCO-\u00cdRIS",
+                        "name": "ARCO-ÍRIS",
                         "population": 1925,
                         "salary": 2.0
                     },
@@ -1129,7 +1129,7 @@
                     "type": "Polygon",
                     "id": "3503604",
                     "properties": {
-                        "name": "AREI\u00d3POLIS",
+                        "name": "AREIÓPOLIS",
                         "population": 10581,
                         "salary": 2.0
                     },
@@ -1184,7 +1184,7 @@
                     "type": "Polygon",
                     "id": "3503901",
                     "properties": {
-                        "name": "ARUJ\u00c1",
+                        "name": "ARUJÁ",
                         "population": 74818,
                         "salary": 3.0
                     },
@@ -1201,7 +1201,7 @@
                     "type": "Polygon",
                     "id": "3503950",
                     "properties": {
-                        "name": "ASP\u00c1SIA",
+                        "name": "ASPÁSIA",
                         "population": 1809,
                         "salary": 2.1
                     },
@@ -1285,7 +1285,7 @@
                     "type": "Polygon",
                     "id": "3504305",
                     "properties": {
-                        "name": "AVA\u00cd",
+                        "name": "AVAÍ",
                         "population": 4959,
                         "salary": 1.9
                     },
@@ -1321,7 +1321,7 @@
                     "type": "Polygon",
                     "id": "3504503",
                     "properties": {
-                        "name": "AVAR\u00c9",
+                        "name": "AVARÉ",
                         "population": 82935,
                         "salary": 2.2
                     },
@@ -1384,7 +1384,7 @@
                     "type": "Polygon",
                     "id": "3504800",
                     "properties": {
-                        "name": "B\u00c1LSAMO",
+                        "name": "BÁLSAMO",
                         "population": 8160,
                         "salary": 2.4
                     },
@@ -1420,7 +1420,7 @@
                     "type": "Polygon",
                     "id": "3505005",
                     "properties": {
-                        "name": "BAR\u00c3O DE ANTONINA",
+                        "name": "BARÃO DE ANTONINA",
                         "population": 3116,
                         "salary": 1.6
                     },
@@ -1499,7 +1499,7 @@
                     "type": "Polygon",
                     "id": "3505351",
                     "properties": {
-                        "name": "BARRA DO CHAP\u00c9U",
+                        "name": "BARRA DO CHAPÉU",
                         "population": 5236,
                         "salary": 1.6
                     },
@@ -1880,7 +1880,7 @@
                     "type": "Polygon",
                     "id": "3506706",
                     "properties": {
-                        "name": "BOA ESPERAN\u00c7A DO SUL",
+                        "name": "BOA ESPERANÇA DO SUL",
                         "population": 13658,
                         "salary": 2.1
                     },
@@ -1962,7 +1962,7 @@
                     "type": "Polygon",
                     "id": "3507100",
                     "properties": {
-                        "name": "BOM JESUS DOS PERD\u00d5ES",
+                        "name": "BOM JESUS DOS PERDÕES",
                         "population": 19703,
                         "salary": 2.6
                     },
@@ -1980,7 +1980,7 @@
                     "type": "Polygon",
                     "id": "3507159",
                     "properties": {
-                        "name": "BOM SUCESSO DE ITARAR\u00c9",
+                        "name": "BOM SUCESSO DE ITARARÉ",
                         "population": 3571,
                         "salary": 1.9
                     },
@@ -2002,7 +2002,7 @@
                     "type": "Polygon",
                     "id": "3507209",
                     "properties": {
-                        "name": "BOR\u00c1",
+                        "name": "BORÁ",
                         "population": 805,
                         "salary": 2.7
                     },
@@ -2035,7 +2035,7 @@
                     "type": "Polygon",
                     "id": "3507308",
                     "properties": {
-                        "name": "BORAC\u00c9IA",
+                        "name": "BORACÉIA",
                         "population": 4268,
                         "salary": 2.6
                     },
@@ -2111,7 +2111,7 @@
                     "type": "Polygon",
                     "id": "3507605",
                     "properties": {
-                        "name": "BRAGAN\u00c7A PAULISTA",
+                        "name": "BRAGANÇA PAULISTA",
                         "population": 146663,
                         "salary": 2.5
                     },
@@ -2143,7 +2143,7 @@
                     "type": "Polygon",
                     "id": "3507704",
                     "properties": {
-                        "name": "BRA\u00daNA",
+                        "name": "BRAÚNA",
                         "population": 5021,
                         "salary": 2.2
                     },
@@ -2344,7 +2344,7 @@
                     "type": "Polygon",
                     "id": "3508306",
                     "properties": {
-                        "name": "CABR\u00c1LIA PAULISTA",
+                        "name": "CABRÁLIA PAULISTA",
                         "population": 4365,
                         "salary": 1.9
                     },
@@ -2362,7 +2362,7 @@
                     "type": "Polygon",
                     "id": "3508405",
                     "properties": {
-                        "name": "CABRE\u00daVA",
+                        "name": "CABREÚVA",
                         "population": 41643,
                         "salary": 3.2
                     },
@@ -2415,7 +2415,7 @@
                     "type": "Polygon",
                     "id": "3508504",
                     "properties": {
-                        "name": "CA\u00c7APAVA",
+                        "name": "CAÇAPAVA",
                         "population": 84844,
                         "salary": 3.2
                     },
@@ -2476,7 +2476,7 @@
                     "type": "Polygon",
                     "id": "3508801",
                     "properties": {
-                        "name": "CAFEL\u00c2NDIA",
+                        "name": "CAFELÂNDIA",
                         "population": 16612,
                         "salary": 2.0
                     },
@@ -2557,7 +2557,7 @@
                     "type": "Polygon",
                     "id": "3509106",
                     "properties": {
-                        "name": "CAIU\u00c1",
+                        "name": "CAIUÁ",
                         "population": 5039,
                         "salary": 2.1
                     },
@@ -2784,7 +2784,7 @@
                     "type": "Polygon",
                     "id": "3509700",
                     "properties": {
-                        "name": "CAMPOS DO JORD\u00c3O",
+                        "name": "CAMPOS DO JORDÃO",
                         "population": 47824,
                         "salary": 2.1
                     },
@@ -2822,7 +2822,7 @@
                     "type": "MultiPolygon",
                     "id": "3509908",
                     "properties": {
-                        "name": "CANAN\u00c9IA",
+                        "name": "CANANÉIA",
                         "population": 12226,
                         "salary": 2.1
                     },
@@ -2866,7 +2866,7 @@
                     "type": "Polygon",
                     "id": "3510005",
                     "properties": {
-                        "name": "C\u00c2NDIDO MOTA",
+                        "name": "CÂNDIDO MOTA",
                         "population": 29911,
                         "salary": 2.6
                     },
@@ -2889,7 +2889,7 @@
                     "type": "Polygon",
                     "id": "3510104",
                     "properties": {
-                        "name": "C\u00c2NDIDO RODRIGUES",
+                        "name": "CÂNDIDO RODRIGUES",
                         "population": 2668,
                         "salary": 2.0
                     },
@@ -2922,7 +2922,7 @@
                     "type": "Polygon",
                     "id": "3510203",
                     "properties": {
-                        "name": "CAP\u00c3O BONITO",
+                        "name": "CAPÃO BONITO",
                         "population": 46178,
                         "salary": 2.0
                     },
@@ -3063,7 +3063,7 @@
                     "type": "Polygon",
                     "id": "3510609",
                     "properties": {
-                        "name": "CARAPICU\u00cdBA",
+                        "name": "CARAPICUÍBA",
                         "population": 369908,
                         "salary": 2.3
                     },
@@ -3147,7 +3147,7 @@
                     "type": "Polygon",
                     "id": "3510906",
                     "properties": {
-                        "name": "C\u00c1SSIA DOS COQUEIROS",
+                        "name": "CÁSSIA DOS COQUEIROS",
                         "population": 2627,
                         "salary": 1.7
                     },
@@ -3212,7 +3212,7 @@
                     "type": "Polygon",
                     "id": "3511201",
                     "properties": {
-                        "name": "CATIGU\u00c1",
+                        "name": "CATIGUÁ",
                         "population": 7127,
                         "salary": 2.3
                     },
@@ -3250,7 +3250,7 @@
                     "type": "Polygon",
                     "id": "3511409",
                     "properties": {
-                        "name": "CERQUEIRA C\u00c9SAR",
+                        "name": "CERQUEIRA CÉSAR",
                         "population": 17532,
                         "salary": 2.4
                     },
@@ -3289,7 +3289,7 @@
                     "type": "Polygon",
                     "id": "3511607",
                     "properties": {
-                        "name": "CES\u00c1RIO LANGE",
+                        "name": "CESÁRIO LANGE",
                         "population": 15547,
                         "salary": 2.2
                     },
@@ -3369,7 +3369,7 @@
                     "type": "Polygon",
                     "id": "3512100",
                     "properties": {
-                        "name": "COL\u00d4MBIA",
+                        "name": "COLÚMBIA",
                         "population": 5994,
                         "salary": 2.1
                     },
@@ -3446,7 +3446,7 @@
                     "type": "Polygon",
                     "id": "3512407",
                     "properties": {
-                        "name": "CORDEIR\u00d3POLIS",
+                        "name": "CORDEIRÓPOLIS",
                         "population": 21085,
                         "salary": 3.1
                     },
@@ -3523,7 +3523,7 @@
                     "type": "Polygon",
                     "id": "3512704",
                     "properties": {
-                        "name": "CORUMBATA\u00cd",
+                        "name": "CORUMBATAÍ",
                         "population": 3874,
                         "salary": 2.6
                     },
@@ -3542,7 +3542,7 @@
                     "type": "Polygon",
                     "id": "3512803",
                     "properties": {
-                        "name": "COSM\u00d3POLIS",
+                        "name": "COSMÓPOLIS",
                         "population": 58821,
                         "salary": 2.7
                     },
@@ -3681,7 +3681,7 @@
                     "type": "Polygon",
                     "id": "3513306",
                     "properties": {
-                        "name": "CRUZ\u00c1LIA",
+                        "name": "CRUZÁLIA",
                         "population": 2270,
                         "salary": 2.5
                     },
@@ -3720,7 +3720,7 @@
                     "type": "Polygon",
                     "id": "3513504",
                     "properties": {
-                        "name": "CUBAT\u00c3O",
+                        "name": "CUBATÃO",
                         "population": 118797,
                         "salary": 4.8
                     },
@@ -3827,7 +3827,7 @@
                     "type": "Polygon",
                     "id": "3513900",
                     "properties": {
-                        "name": "DIVINOL\u00c2NDIA",
+                        "name": "DIVINOLÂNDIA",
                         "population": 11209,
                         "salary": 2.2
                     },
@@ -3862,7 +3862,7 @@
                     "type": "Polygon",
                     "id": "3514106",
                     "properties": {
-                        "name": "DOIS C\u00d3RREGOS",
+                        "name": "DOIS CÓRREGOS",
                         "population": 24768,
                         "salary": 2.2
                     },
@@ -3951,7 +3951,7 @@
                     "type": "Polygon",
                     "id": "3514205",
                     "properties": {
-                        "name": "DOLCIN\u00d3POLIS",
+                        "name": "DOLCINÓPOLIS",
                         "population": 2096,
                         "salary": 1.9
                     },
@@ -4052,7 +4052,7 @@
                     "type": "Polygon",
                     "id": "3514700",
                     "properties": {
-                        "name": "ECHAPOR\u00c3",
+                        "name": "ECHAPORÃ",
                         "population": 6318,
                         "salary": 1.9
                     },
@@ -4122,7 +4122,7 @@
                     "type": "Polygon",
                     "id": "3514924",
                     "properties": {
-                        "name": "ELISI\u00c1RIO",
+                        "name": "ELISIÁRIO",
                         "population": 3120,
                         "salary": 2.3
                     },
@@ -4140,7 +4140,7 @@
                     "type": "Polygon",
                     "id": "3514957",
                     "properties": {
-                        "name": "EMBA\u00daBA",
+                        "name": "EMBAÚBA",
                         "population": 2423,
                         "salary": 2.1
                     },
@@ -4227,7 +4227,7 @@
                     "type": "Polygon",
                     "id": "3515103",
                     "properties": {
-                        "name": "EMBU-GUA\u00c7U",
+                        "name": "EMBU-GUAÇU",
                         "population": 62846,
                         "salary": 2.3
                     },
@@ -4265,7 +4265,7 @@
                     "type": "Polygon",
                     "id": "3515129",
                     "properties": {
-                        "name": "EMILIAN\u00d3POLIS",
+                        "name": "EMILIANÓPOLIS",
                         "population": 3024,
                         "salary": 2.0
                     },
@@ -4301,7 +4301,7 @@
                     "type": "Polygon",
                     "id": "3515186",
                     "properties": {
-                        "name": "ESP\u00cdRITO SANTO DO PINHAL",
+                        "name": "ESPÍRITO SANTO DO PINHAL",
                         "population": 41919,
                         "salary": 2.2
                     },
@@ -4322,7 +4322,7 @@
                     "type": "Polygon",
                     "id": "3515194",
                     "properties": {
-                        "name": "ESP\u00cdRITO SANTO DO TURVO",
+                        "name": "ESPÍRITO SANTO DO TURVO",
                         "population": 4246,
                         "salary": 2.1
                     },
@@ -4420,7 +4420,7 @@
                     "type": "Polygon",
                     "id": "3515509",
                     "properties": {
-                        "name": "FERNAND\u00d3POLIS",
+                        "name": "FERNANDÓPOLIS",
                         "population": 64707,
                         "salary": 2.1
                     },
@@ -4459,7 +4459,7 @@
                     "type": "Polygon",
                     "id": "3515657",
                     "properties": {
-                        "name": "FERN\u00c3O",
+                        "name": "FERNÃO",
                         "population": 1563,
                         "salary": 2.1
                     },
@@ -4559,7 +4559,7 @@
                     "type": "Polygon",
                     "id": "3516002",
                     "properties": {
-                        "name": "FL\u00d3RIDA PAULISTA",
+                        "name": "FLÓRIDA PAULISTA",
                         "population": 12849,
                         "salary": 2.0
                     },
@@ -4579,7 +4579,7 @@
                     "type": "Polygon",
                     "id": "3516101",
                     "properties": {
-                        "name": "FLOR\u00cdNIA",
+                        "name": "FLORÍNIA",
                         "population": 2829,
                         "salary": 0.0
                     },
@@ -4696,7 +4696,7 @@
                     "type": "Polygon",
                     "id": "3516606",
                     "properties": {
-                        "name": "G\u00c1LIA",
+                        "name": "GÁLIA",
                         "population": 7011,
                         "salary": 1.9
                     },
@@ -4731,7 +4731,7 @@
                     "type": "Polygon",
                     "id": "3516705",
                     "properties": {
-                        "name": "GAR\u00c7A",
+                        "name": "GARÇA",
                         "population": 43124,
                         "salary": 2.1
                     },
@@ -4765,7 +4765,7 @@
                     "type": "Polygon",
                     "id": "3516804",
                     "properties": {
-                        "name": "GAST\u00c3O VIDIGAL",
+                        "name": "GASTÃO VIDIGAL",
                         "population": 4193,
                         "salary": 2.5
                     },
@@ -4784,7 +4784,7 @@
                     "type": "Polygon",
                     "id": "3516853",
                     "properties": {
-                        "name": "GAVI\u00c3O PEIXOTO",
+                        "name": "GAVIÃO PEIXOTO",
                         "population": 4420,
                         "salary": 5.7
                     },
@@ -4842,7 +4842,7 @@
                     "type": "Polygon",
                     "id": "3517109",
                     "properties": {
-                        "name": "GLIC\u00c9RIO",
+                        "name": "GLICÉRIO",
                         "population": 4577,
                         "salary": 1.8
                     },
@@ -4861,7 +4861,7 @@
                     "type": "Polygon",
                     "id": "3517208",
                     "properties": {
-                        "name": "GUAI\u00c7ARA",
+                        "name": "GUAIÇARA",
                         "population": 10671,
                         "salary": 2.1
                     },
@@ -4879,7 +4879,7 @@
                     "type": "Polygon",
                     "id": "3517307",
                     "properties": {
-                        "name": "GUAIMB\u00ca",
+                        "name": "GUAIMBÊ",
                         "population": 5425,
                         "salary": 1.9
                     },
@@ -4897,7 +4897,7 @@
                     "type": "Polygon",
                     "id": "3517406",
                     "properties": {
-                        "name": "GUA\u00cdRA",
+                        "name": "GUAÍRA",
                         "population": 37412,
                         "salary": 2.7
                     },
@@ -4916,7 +4916,7 @@
                     "type": "Polygon",
                     "id": "3517505",
                     "properties": {
-                        "name": "GUAPIA\u00c7U",
+                        "name": "GUAPIAÇU",
                         "population": 17885,
                         "salary": 2.7
                     },
@@ -4954,7 +4954,7 @@
                     "type": "Polygon",
                     "id": "3517703",
                     "properties": {
-                        "name": "GUAR\u00c1",
+                        "name": "GUARÁ",
                         "population": 19864,
                         "salary": 2.2
                     },
@@ -4972,7 +4972,7 @@
                     "type": "Polygon",
                     "id": "3517802",
                     "properties": {
-                        "name": "GUARA\u00c7A\u00cd",
+                        "name": "GUARAÇAÍ",
                         "population": 8435,
                         "salary": 2.0
                     },
@@ -5031,7 +5031,7 @@
                     "type": "Polygon",
                     "id": "3518107",
                     "properties": {
-                        "name": "GUARANT\u00c3",
+                        "name": "GUARANTÃ",
                         "population": 6400,
                         "salary": 1.9
                     },
@@ -5095,7 +5095,7 @@
                     "type": "Polygon",
                     "id": "3518404",
                     "properties": {
-                        "name": "GUARATINGUET\u00c1",
+                        "name": "GUARATINGUETÁ",
                         "population": 112091,
                         "salary": 3.0
                     },
@@ -5139,7 +5139,7 @@
                     "type": "Polygon",
                     "id": "3518503",
                     "properties": {
-                        "name": "GUARE\u00cd",
+                        "name": "GUAREÍ",
                         "population": 14568,
                         "salary": 1.9
                     },
@@ -5178,7 +5178,7 @@
                     "type": "MultiPolygon",
                     "id": "3518701",
                     "properties": {
-                        "name": "GUARUJ\u00c1",
+                        "name": "GUARUJÁ",
                         "population": 290607,
                         "salary": 3.1
                     },
@@ -5256,7 +5256,7 @@
                     "type": "Polygon",
                     "id": "3518859",
                     "properties": {
-                        "name": "GUATAPAR\u00c1",
+                        "name": "GUATAPARÁ",
                         "population": 6966,
                         "salary": 2.4
                     },
@@ -5280,7 +5280,7 @@
                     "type": "Polygon",
                     "id": "3518909",
                     "properties": {
-                        "name": "GUZOL\u00c2NDIA",
+                        "name": "GUZOLÂNDIA",
                         "population": 4754,
                         "salary": 2.0
                     },
@@ -5297,7 +5297,7 @@
                     "type": "Polygon",
                     "id": "3519006",
                     "properties": {
-                        "name": "HERCUL\u00c2NDIA",
+                        "name": "HERCULÂNDIA",
                         "population": 8696,
                         "salary": 2.4
                     },
@@ -5350,7 +5350,7 @@
                     "type": "Polygon",
                     "id": "3519071",
                     "properties": {
-                        "name": "HORTOL\u00c2NDIA",
+                        "name": "HORTOLÂNDIA",
                         "population": 192225,
                         "salary": 4.3
                     },
@@ -5453,7 +5453,7 @@
                     "type": "Polygon",
                     "id": "3519303",
                     "properties": {
-                        "name": "IBAT\u00c9",
+                        "name": "IBATÉ",
                         "population": 30724,
                         "salary": 2.5
                     },
@@ -5469,7 +5469,7 @@
                     "type": "Polygon",
                     "id": "3519402",
                     "properties": {
-                        "name": "IBIR\u00c1",
+                        "name": "IBIRÁ",
                         "population": 10868,
                         "salary": 2.1
                     },
@@ -5539,7 +5539,7 @@
                     "type": "Polygon",
                     "id": "3519709",
                     "properties": {
-                        "name": "IBI\u00daNA",
+                        "name": "IBIÚNA",
                         "population": 71228,
                         "salary": 2.3
                     },
@@ -5562,7 +5562,7 @@
                     "type": "Polygon",
                     "id": "3519808",
                     "properties": {
-                        "name": "IC\u00c9M",
+                        "name": "ICÉM",
                         "population": 7462,
                         "salary": 2.4
                     },
@@ -5584,7 +5584,7 @@
                     "type": "Polygon",
                     "id": "3519907",
                     "properties": {
-                        "name": "IEP\u00ca",
+                        "name": "IEPÊ",
                         "population": 7627,
                         "salary": 2.3
                     },
@@ -5601,7 +5601,7 @@
                     "type": "Polygon",
                     "id": "3520004",
                     "properties": {
-                        "name": "IGARA\u00c7U DO TIET\u00ca",
+                        "name": "IGARAÇU DO TIETÊ",
                         "population": 23370,
                         "salary": 2.0
                     },
@@ -5642,7 +5642,7 @@
                     "type": "Polygon",
                     "id": "3520202",
                     "properties": {
-                        "name": "IGARAT\u00c1",
+                        "name": "IGARATÁ",
                         "population": 8825,
                         "salary": 2.1
                     },
@@ -5789,7 +5789,7 @@
                     "type": "Polygon",
                     "id": "3520707",
                     "properties": {
-                        "name": "INDIAPOR\u00c3",
+                        "name": "INDIAPORÃ",
                         "population": 3906,
                         "salary": 2.0
                     },
@@ -5807,7 +5807,7 @@
                     "type": "Polygon",
                     "id": "3520806",
                     "properties": {
-                        "name": "IN\u00daBIA PAULISTA",
+                        "name": "INÚBIA PAULISTA",
                         "population": 3630,
                         "salary": 2.4
                     },
@@ -5842,7 +5842,7 @@
                     "type": "Polygon",
                     "id": "3521002",
                     "properties": {
-                        "name": "IPER\u00d3",
+                        "name": "IPERÓ",
                         "population": 28301,
                         "salary": 2.3
                     },
@@ -5861,7 +5861,7 @@
                     "type": "Polygon",
                     "id": "3521101",
                     "properties": {
-                        "name": "IPE\u00daNA",
+                        "name": "IPEÚNA",
                         "population": 6016,
                         "salary": 2.7
                     },
@@ -5890,7 +5890,7 @@
                     "type": "Polygon",
                     "id": "3521150",
                     "properties": {
-                        "name": "IPIGU\u00c1",
+                        "name": "IPIGUÁ",
                         "population": 4459,
                         "salary": 2.1
                     },
@@ -5931,7 +5931,7 @@
                     "type": "Polygon",
                     "id": "3521309",
                     "properties": {
-                        "name": "IPU\u00c3",
+                        "name": "IPUÃ",
                         "population": 14146,
                         "salary": 2.1
                     },
@@ -5950,7 +5950,7 @@
                     "type": "Polygon",
                     "id": "3521408",
                     "properties": {
-                        "name": "IRACEM\u00c1POLIS",
+                        "name": "IRACEMÁPOLIS",
                         "population": 20047,
                         "salary": 2.5
                     },
@@ -6023,7 +6023,7 @@
                     "type": "Polygon",
                     "id": "3521507",
                     "properties": {
-                        "name": "IRAPU\u00c3",
+                        "name": "IRAPUÃ",
                         "population": 7284,
                         "salary": 1.8
                     },
@@ -6062,7 +6062,7 @@
                     "type": "Polygon",
                     "id": "3521705",
                     "properties": {
-                        "name": "ITABER\u00c1",
+                        "name": "ITABERÁ",
                         "population": 17861,
                         "salary": 2.2
                     },
@@ -6081,7 +6081,7 @@
                     "type": "Polygon",
                     "id": "3521804",
                     "properties": {
-                        "name": "ITA\u00cd",
+                        "name": "ITAÍ",
                         "population": 24015,
                         "salary": 2.4
                     },
@@ -6182,7 +6182,7 @@
                     "type": "Polygon",
                     "id": "3522109",
                     "properties": {
-                        "name": "ITANHA\u00c9M",
+                        "name": "ITANHAÉM",
                         "population": 87053,
                         "salary": 2.2
                     },
@@ -6204,7 +6204,7 @@
                     "type": "Polygon",
                     "id": "3522158",
                     "properties": {
-                        "name": "ITA\u00d3CA",
+                        "name": "ITAÓCA",
                         "population": 3228,
                         "salary": 0.0
                     },
@@ -6379,7 +6379,7 @@
                     "type": "Polygon",
                     "id": "3522653",
                     "properties": {
-                        "name": "ITAPIRAPU\u00c3 PAULISTA",
+                        "name": "ITAPIRAPUÃ PAULISTA",
                         "population": 3884,
                         "salary": 1.7
                     },
@@ -6395,7 +6395,7 @@
                     "type": "Polygon",
                     "id": "3522703",
                     "properties": {
-                        "name": "IT\u00c1POLIS",
+                        "name": "ITÁPOLIS",
                         "population": 40064,
                         "salary": 2.1
                     },
@@ -6435,7 +6435,7 @@
                     "type": "Polygon",
                     "id": "3522901",
                     "properties": {
-                        "name": "ITAPU\u00cd",
+                        "name": "ITAPUÍ",
                         "population": 12181,
                         "salary": 2.1
                     },
@@ -6498,7 +6498,7 @@
                     "type": "Polygon",
                     "id": "3523206",
                     "properties": {
-                        "name": "ITARAR\u00c9",
+                        "name": "ITARARÉ",
                         "population": 47939,
                         "salary": 1.9
                     },
@@ -6613,7 +6613,7 @@
                     "type": "Polygon",
                     "id": "3523701",
                     "properties": {
-                        "name": "ITIRAPU\u00c3",
+                        "name": "ITIRAPUÃ",
                         "population": 5914,
                         "salary": 2.1
                     },
@@ -6835,7 +6835,7 @@
                     "type": "Polygon",
                     "id": "3524402",
                     "properties": {
-                        "name": "JACARE\u00cd",
+                        "name": "JACAREÍ",
                         "population": 211308,
                         "salary": 3.2
                     },
@@ -6911,7 +6911,7 @@
                     "type": "Polygon",
                     "id": "3524709",
                     "properties": {
-                        "name": "JAGUARI\u00daNA",
+                        "name": "JAGUARIÚNA",
                         "population": 44331,
                         "salary": 3.6
                     },
@@ -7002,7 +7002,7 @@
                     "type": "Polygon",
                     "id": "3525102",
                     "properties": {
-                        "name": "JARDIN\u00d3POLIS",
+                        "name": "JARDINÓPOLIS",
                         "population": 37725,
                         "salary": 2.5
                     },
@@ -7046,7 +7046,7 @@
                     "type": "Polygon",
                     "id": "3525300",
                     "properties": {
-                        "name": "JA\u00da",
+                        "name": "JAÚ",
                         "population": 131068,
                         "salary": 2.2
                     },
@@ -7105,7 +7105,7 @@
                     "type": "Polygon",
                     "id": "3525508",
                     "properties": {
-                        "name": "JOAN\u00d3POLIS",
+                        "name": "JOANÓPOLIS",
                         "population": 11771,
                         "salary": 1.8
                     },
@@ -7125,7 +7125,7 @@
                     "type": "Polygon",
                     "id": "3525607",
                     "properties": {
-                        "name": "JO\u00c3O RAMALHO",
+                        "name": "JOÃO RAMALHO",
                         "population": 4138,
                         "salary": 2.0
                     },
@@ -7145,7 +7145,7 @@
                     "type": "Polygon",
                     "id": "3525706",
                     "properties": {
-                        "name": "JOS\u00c9 BONIF\u00c1CIO",
+                        "name": "JOSÉ BONIFÁCIO",
                         "population": 32774,
                         "salary": 2.2
                     },
@@ -7180,7 +7180,7 @@
                     "type": "Polygon",
                     "id": "3525805",
                     "properties": {
-                        "name": "J\u00daLIO MESQUITA",
+                        "name": "JÚLIO MESQUITA",
                         "population": 4430,
                         "salary": 1.8
                     },
@@ -7214,7 +7214,7 @@
                     "type": "Polygon",
                     "id": "3525904",
                     "properties": {
-                        "name": "JUNDIA\u00cd",
+                        "name": "JUNDIAÍ",
                         "population": 370251,
                         "salary": 3.4
                     },
@@ -7244,7 +7244,7 @@
                     "type": "Polygon",
                     "id": "3526001",
                     "properties": {
-                        "name": "JUNQUEIR\u00d3POLIS",
+                        "name": "JUNQUEIRÓPOLIS",
                         "population": 18726,
                         "salary": 2.7
                     },
@@ -7266,7 +7266,7 @@
                     "type": "Polygon",
                     "id": "3526100",
                     "properties": {
-                        "name": "JUQUI\u00c1",
+                        "name": "JUQUIÁ",
                         "population": 19269,
                         "salary": 2.0
                     },
@@ -7399,7 +7399,7 @@
                     "type": "Polygon",
                     "id": "3526506",
                     "properties": {
-                        "name": "LAV\u00cdNIA",
+                        "name": "LAVÍNIA",
                         "population": 8782,
                         "salary": 2.5
                     },
@@ -7464,7 +7464,7 @@
                     "type": "Polygon",
                     "id": "3526803",
                     "properties": {
-                        "name": "LEN\u00c7\u00d3IS PAULISTA",
+                        "name": "LENÇÓIS PAULISTA",
                         "population": 61454,
                         "salary": 2.9
                     },
@@ -7521,7 +7521,7 @@
                     "type": "Polygon",
                     "id": "3527009",
                     "properties": {
-                        "name": "LIND\u00d3IA",
+                        "name": "LINDÓIA",
                         "population": 6708,
                         "salary": 2.1
                     },
@@ -7646,7 +7646,7 @@
                     "type": "Polygon",
                     "id": "3527405",
                     "properties": {
-                        "name": "LUC\u00c9LIA",
+                        "name": "LUCÉLIA",
                         "population": 19885,
                         "salary": 1.7
                     },
@@ -7667,7 +7667,7 @@
                     "type": "Polygon",
                     "id": "3527504",
                     "properties": {
-                        "name": "LUCIAN\u00d3POLIS",
+                        "name": "LUCIANÓPOLIS",
                         "population": 2255,
                         "salary": 2.1
                     },
@@ -7688,7 +7688,7 @@
                     "type": "Polygon",
                     "id": "3527603",
                     "properties": {
-                        "name": "LU\u00cdS ANT\u00d4NIO",
+                        "name": "LUÍS ANTÔNIO",
                         "population": 11286,
                         "salary": 3.1
                     },
@@ -7710,7 +7710,7 @@
                     "type": "Polygon",
                     "id": "3527702",
                     "properties": {
-                        "name": "LUIZI\u00c2NIA",
+                        "name": "LUIZIÂNIA",
                         "population": 5030,
                         "salary": 2.0
                     },
@@ -7732,7 +7732,7 @@
                     "type": "Polygon",
                     "id": "3527801",
                     "properties": {
-                        "name": "LUP\u00c9RCIO",
+                        "name": "LUPÉRCIO",
                         "population": 4353,
                         "salary": 2.1
                     },
@@ -7749,7 +7749,7 @@
                     "type": "Polygon",
                     "id": "3527900",
                     "properties": {
-                        "name": "LUT\u00c9CIA",
+                        "name": "LUTÉCIA",
                         "population": 2703,
                         "salary": 1.8
                     },
@@ -7817,7 +7817,7 @@
                     "type": "Polygon",
                     "id": "3528205",
                     "properties": {
-                        "name": "MACED\u00d4NIA",
+                        "name": "MACEDÔNIA",
                         "population": 3664,
                         "salary": 2.0
                     },
@@ -7883,7 +7883,7 @@
                     "type": "Polygon",
                     "id": "3528502",
                     "properties": {
-                        "name": "MAIRIPOR\u00c3",
+                        "name": "MAIRIPORÃ",
                         "population": 80920,
                         "salary": 2.3
                     },
@@ -7947,7 +7947,7 @@
                     "type": "Polygon",
                     "id": "3528700",
                     "properties": {
-                        "name": "MARAB\u00c1 PAULISTA",
+                        "name": "MARABÁ PAULISTA",
                         "population": 4812,
                         "salary": 2.3
                     },
@@ -7967,7 +7967,7 @@
                     "type": "Polygon",
                     "id": "3528809",
                     "properties": {
-                        "name": "MARACA\u00cd",
+                        "name": "MARACAÍ",
                         "population": 13344,
                         "salary": 2.2
                     },
@@ -8008,7 +8008,7 @@
                     "type": "Polygon",
                     "id": "3528908",
                     "properties": {
-                        "name": "MARI\u00c1POLIS",
+                        "name": "MARIÁPOLIS",
                         "population": 3916,
                         "salary": 2.1
                     },
@@ -8028,7 +8028,7 @@
                     "type": "Polygon",
                     "id": "3529005",
                     "properties": {
-                        "name": "MAR\u00cdLIA",
+                        "name": "MARÍLIA",
                         "population": 216684,
                         "salary": 2.7
                     },
@@ -8063,7 +8063,7 @@
                     "type": "Polygon",
                     "id": "3529104",
                     "properties": {
-                        "name": "MARIN\u00d3POLIS",
+                        "name": "MARINÓPOLIS",
                         "population": 2113,
                         "salary": 2.1
                     },
@@ -8079,7 +8079,7 @@
                     "type": "Polygon",
                     "id": "3529203",
                     "properties": {
-                        "name": "MARTIN\u00d3POLIS",
+                        "name": "MARTINÓPOLIS",
                         "population": 24260,
                         "salary": 2.1
                     },
@@ -8102,7 +8102,7 @@
                     "type": "Polygon",
                     "id": "3529302",
                     "properties": {
-                        "name": "MAT\u00c3O",
+                        "name": "MATÃO",
                         "population": 76799,
                         "salary": 2.7
                     },
@@ -8123,7 +8123,7 @@
                     "type": "MultiPolygon",
                     "id": "3529401",
                     "properties": {
-                        "name": "MAU\u00c1",
+                        "name": "MAUÁ",
                         "population": 417281,
                         "salary": 3.3
                     },
@@ -8167,7 +8167,7 @@
                     "type": "Polygon",
                     "id": "3529500",
                     "properties": {
-                        "name": "MENDON\u00c7A",
+                        "name": "MENDONÇA",
                         "population": 4640,
                         "salary": 2.7
                     },
@@ -8209,7 +8209,7 @@
                     "type": "Polygon",
                     "id": "3529658",
                     "properties": {
-                        "name": "MES\u00d3POLIS",
+                        "name": "MESÓPOLIS",
                         "population": 1886,
                         "salary": 2.3
                     },
@@ -8226,7 +8226,7 @@
                     "type": "Polygon",
                     "id": "3529708",
                     "properties": {
-                        "name": "MIGUEL\u00d3POLIS",
+                        "name": "MIGUELÓPOLIS",
                         "population": 20442,
                         "salary": 2.3
                     },
@@ -8244,7 +8244,7 @@
                     "type": "Polygon",
                     "id": "3529807",
                     "properties": {
-                        "name": "MINEIROS DO TIET\u00ca",
+                        "name": "MINEIROS DO TIETÊ",
                         "population": 12042,
                         "salary": 2.1
                     },
@@ -8332,7 +8332,7 @@
                     "type": "Polygon",
                     "id": "3530102",
                     "properties": {
-                        "name": "MIRAND\u00d3POLIS",
+                        "name": "MIRANDÓPOLIS",
                         "population": 27475,
                         "salary": 2.5
                     },
@@ -8412,7 +8412,7 @@
                     "type": "Polygon",
                     "id": "3530409",
                     "properties": {
-                        "name": "MIRASSOL\u00c2NDIA",
+                        "name": "MIRASSOLÂNDIA",
                         "population": 4295,
                         "salary": 2.1
                     },
@@ -8480,7 +8480,7 @@
                     "type": "Polygon",
                     "id": "3530706",
                     "properties": {
-                        "name": "MOGI GUA\u00c7U",
+                        "name": "MOGI GUAÇU",
                         "population": 137286,
                         "salary": 2.8
                     },
@@ -8547,7 +8547,7 @@
                     "type": "Polygon",
                     "id": "3531001",
                     "properties": {
-                        "name": "MON\u00c7\u00d5ES",
+                        "name": "MONÇÕES",
                         "population": 2134,
                         "salary": 2.8
                     },
@@ -8566,7 +8566,7 @@
                     "type": "Polygon",
                     "id": "3531100",
                     "properties": {
-                        "name": "MONGAGU\u00c1",
+                        "name": "MONGAGUÁ",
                         "population": 46310,
                         "salary": 2.3
                     },
@@ -8631,7 +8631,7 @@
                     "type": "Polygon",
                     "id": "3531407",
                     "properties": {
-                        "name": "MONTE APRAZ\u00cdVEL",
+                        "name": "MONTE APRAZÍVEL",
                         "population": 21748,
                         "salary": 2.5
                     },
@@ -8933,7 +8933,7 @@
                     "type": "Polygon",
                     "id": "3532405",
                     "properties": {
-                        "name": "NAZAR\u00c9 PAULISTA",
+                        "name": "NAZARÉ PAULISTA",
                         "population": 16413,
                         "salary": 2.9
                     },
@@ -9013,7 +9013,7 @@
                     "type": "Polygon",
                     "id": "3532702",
                     "properties": {
-                        "name": "NIPO\u00c3",
+                        "name": "NIPOÃ",
                         "population": 4274,
                         "salary": 2.1
                     },
@@ -9031,7 +9031,7 @@
                     "type": "Polygon",
                     "id": "3532801",
                     "properties": {
-                        "name": "NOVA ALIAN\u00c7A",
+                        "name": "NOVA ALIANÇA",
                         "population": 5891,
                         "salary": 1.8
                     },
@@ -9075,7 +9075,7 @@
                     "type": "Polygon",
                     "id": "3532843",
                     "properties": {
-                        "name": "NOVA CANA\u00c3 PAULISTA",
+                        "name": "NOVA CANAÃ PAULISTA",
                         "population": 2114,
                         "salary": 2.4
                     },
@@ -9180,7 +9180,7 @@
                     "type": "Polygon",
                     "id": "3533205",
                     "properties": {
-                        "name": "NOVA INDEPEND\u00caNCIA",
+                        "name": "NOVA INDEPENDÊNCIA",
                         "population": 3072,
                         "salary": 3.5
                     },
@@ -9216,7 +9216,7 @@
                     "type": "Polygon",
                     "id": "3533304",
                     "properties": {
-                        "name": "NOVA LUZIT\u00c2NIA",
+                        "name": "NOVA LUZITÂNIA",
                         "population": 3441,
                         "salary": 2.2
                     },
@@ -9505,7 +9505,7 @@
                     "type": "Polygon",
                     "id": "3533700",
                     "properties": {
-                        "name": "OCAU\u00c7U",
+                        "name": "OCAUÇU",
                         "population": 4163,
                         "salary": 2.1
                     },
@@ -9525,7 +9525,7 @@
                     "type": "Polygon",
                     "id": "3533809",
                     "properties": {
-                        "name": "\u00d3LEO",
+                        "name": "ÓLEO",
                         "population": 2673,
                         "salary": 2.5
                     },
@@ -9543,7 +9543,7 @@
                     "type": "Polygon",
                     "id": "3533908",
                     "properties": {
-                        "name": "OL\u00cdMPIA",
+                        "name": "OLÍMPIA",
                         "population": 49792,
                         "salary": 2.8
                     },
@@ -9600,7 +9600,7 @@
                     "type": "Polygon",
                     "id": "3534203",
                     "properties": {
-                        "name": "ORINDI\u00daVA",
+                        "name": "ORINDIÚVA",
                         "population": 5678,
                         "salary": 3.7
                     },
@@ -9618,7 +9618,7 @@
                     "type": "Polygon",
                     "id": "3534302",
                     "properties": {
-                        "name": "ORL\u00c2NDIA",
+                        "name": "ORLÂNDIA",
                         "population": 39781,
                         "salary": 2.8
                     },
@@ -9937,7 +9937,7 @@
                     "type": "Polygon",
                     "id": "3535507",
                     "properties": {
-                        "name": "PARAGUA\u00c7U PAULISTA",
+                        "name": "PARAGUAÇU PAULISTA",
                         "population": 42281,
                         "salary": 2.6
                     },
@@ -9982,7 +9982,7 @@
                     "type": "Polygon",
                     "id": "3535705",
                     "properties": {
-                        "name": "PARA\u00cdSO",
+                        "name": "PARAÍSO",
                         "population": 5907,
                         "salary": 3.0
                     },
@@ -10052,7 +10052,7 @@
                     "type": "Polygon",
                     "id": "3535903",
                     "properties": {
-                        "name": "PARANAPU\u00c3",
+                        "name": "PARANAPUÃ",
                         "population": 3815,
                         "salary": 2.3
                     },
@@ -10072,7 +10072,7 @@
                     "type": "Polygon",
                     "id": "3536000",
                     "properties": {
-                        "name": "PARAPU\u00c3",
+                        "name": "PARAPUÃ",
                         "population": 10844,
                         "salary": 2.4
                     },
@@ -10108,7 +10108,7 @@
                     "type": "Polygon",
                     "id": "3536208",
                     "properties": {
-                        "name": "PARIQUERA-A\u00c7U",
+                        "name": "PARIQUERA-AÇU",
                         "population": 18453,
                         "salary": 2.4
                     },
@@ -10144,7 +10144,7 @@
                     "type": "Polygon",
                     "id": "3536307",
                     "properties": {
-                        "name": "PATROC\u00cdNIO PAULISTA",
+                        "name": "PATROCÍNIO PAULISTA",
                         "population": 13002,
                         "salary": 3.0
                     },
@@ -10194,7 +10194,7 @@
                     "type": "Polygon",
                     "id": "3536406",
                     "properties": {
-                        "name": "PAULIC\u00c9IA",
+                        "name": "PAULICÉIA",
                         "population": 6342,
                         "salary": 2.4
                     },
@@ -10214,7 +10214,7 @@
                     "type": "Polygon",
                     "id": "3536505",
                     "properties": {
-                        "name": "PAUL\u00cdNIA",
+                        "name": "PAULÍNIA",
                         "population": 82150,
                         "salary": 4.8
                     },
@@ -10295,7 +10295,7 @@
                     "type": "Polygon",
                     "id": "3536570",
                     "properties": {
-                        "name": "PAULIST\u00c2NIA",
+                        "name": "PAULISTÂNIA",
                         "population": 1778,
                         "salary": 2.1
                     },
@@ -10386,7 +10386,7 @@
                     "type": "Polygon",
                     "id": "3536901",
                     "properties": {
-                        "name": "PEDRAN\u00d3POLIS",
+                        "name": "PEDRANÓPOLIS",
                         "population": 2561,
                         "salary": 2.3
                     },
@@ -10527,7 +10527,7 @@
                     "type": "Polygon",
                     "id": "3537305",
                     "properties": {
-                        "name": "PEN\u00c1POLIS",
+                        "name": "PENÁPOLIS",
                         "population": 58529,
                         "salary": 2.2
                     },
@@ -10608,7 +10608,7 @@
                     "type": "MultiPolygon",
                     "id": "3537602",
                     "properties": {
-                        "name": "PERU\u00cdBE",
+                        "name": "PERUÍBE",
                         "population": 59793,
                         "salary": 2.2
                     },
@@ -11174,7 +11174,7 @@
                     "type": "Polygon",
                     "id": "3538907",
                     "properties": {
-                        "name": "PIRAJU\u00cd",
+                        "name": "PIRAJUÍ",
                         "population": 22724,
                         "salary": 2.0
                     },
@@ -11434,7 +11434,7 @@
                     "type": "Polygon",
                     "id": "3539806",
                     "properties": {
-                        "name": "PO\u00c1",
+                        "name": "POÁ",
                         "population": 106033,
                         "salary": 2.2
                     },
@@ -11465,7 +11465,7 @@
                     "type": "Polygon",
                     "id": "3540002",
                     "properties": {
-                        "name": "POMP\u00c9IA",
+                        "name": "POMPÉIA",
                         "population": 19963,
                         "salary": 3.8
                     },
@@ -11494,7 +11494,7 @@
                     "type": "Polygon",
                     "id": "3540101",
                     "properties": {
-                        "name": "PONGA\u00cd",
+                        "name": "PONGAÍ",
                         "population": 3479,
                         "salary": 2.2
                     },
@@ -11772,7 +11772,7 @@
                     "type": "Polygon",
                     "id": "3540903",
                     "properties": {
-                        "name": "PRAD\u00d3POLIS",
+                        "name": "PRADÓPOLIS",
                         "population": 17404,
                         "salary": 2.2
                     },
@@ -11816,7 +11816,7 @@
                     "type": "Polygon",
                     "id": "3541059",
                     "properties": {
-                        "name": "PRAT\u00c2NIA",
+                        "name": "PRATÂNIA",
                         "population": 4599,
                         "salary": 2.4
                     },
@@ -11876,7 +11876,7 @@
                     "type": "Polygon",
                     "id": "3541307",
                     "properties": {
-                        "name": "PRESIDENTE EPIT\u00c1CIO",
+                        "name": "PRESIDENTE EPITÁCIO",
                         "population": 41324,
                         "salary": 2.1
                     },
@@ -11967,7 +11967,7 @@
                     "type": "Polygon",
                     "id": "3541604",
                     "properties": {
-                        "name": "PROMISS\u00c3O",
+                        "name": "PROMISSÃO",
                         "population": 35688,
                         "salary": 2.2
                     },
@@ -12010,7 +12010,7 @@
                     "type": "Polygon",
                     "id": "3541703",
                     "properties": {
-                        "name": "QUAT\u00c1",
+                        "name": "QUATÁ",
                         "population": 12828,
                         "salary": 2.4
                     },
@@ -12227,7 +12227,7 @@
                     "type": "Polygon",
                     "id": "3542305",
                     "properties": {
-                        "name": "REDEN\u00c7\u00c3O DA SERRA",
+                        "name": "REDENÇÃO DA SERRA",
                         "population": 3879,
                         "salary": 1.5
                     },
@@ -12246,7 +12246,7 @@
                     "type": "Polygon",
                     "id": "3542404",
                     "properties": {
-                        "name": "REGENTE FEIJ\u00d3",
+                        "name": "REGENTE FEIJÓ",
                         "population": 18496,
                         "salary": 2.3
                     },
@@ -12270,7 +12270,7 @@
                     "type": "Polygon",
                     "id": "3542503",
                     "properties": {
-                        "name": "REGIN\u00d3POLIS",
+                        "name": "REGINÓPOLIS",
                         "population": 7325,
                         "salary": 2.0
                     },
@@ -12344,7 +12344,7 @@
                     "type": "Polygon",
                     "id": "3542909",
                     "properties": {
-                        "name": "RIBEIR\u00c3O BONITO",
+                        "name": "RIBEIRÃO BONITO",
                         "population": 12129,
                         "salary": 2.1
                     },
@@ -12364,7 +12364,7 @@
                     "type": "Polygon",
                     "id": "3543006",
                     "properties": {
-                        "name": "RIBEIR\u00c3O BRANCO",
+                        "name": "RIBEIRÃO BRANCO",
                         "population": 18272,
                         "salary": 1.9
                     },
@@ -12381,7 +12381,7 @@
                     "type": "Polygon",
                     "id": "3543105",
                     "properties": {
-                        "name": "RIBEIR\u00c3O CORRENTE",
+                        "name": "RIBEIRÃO CORRENTE",
                         "population": 4273,
                         "salary": 2.2
                     },
@@ -12399,7 +12399,7 @@
                     "type": "Polygon",
                     "id": "3543204",
                     "properties": {
-                        "name": "RIBEIR\u00c3O DO SUL",
+                        "name": "RIBEIRÃO DO SUL",
                         "population": 4464,
                         "salary": 2.1
                     },
@@ -12416,7 +12416,7 @@
                     "type": "Polygon",
                     "id": "3543238",
                     "properties": {
-                        "name": "RIBEIR\u00c3O DOS \u00cdNDIOS",
+                        "name": "RIBEIRÃO DOS ÍNDIOS",
                         "population": 2187,
                         "salary": 1.8
                     },
@@ -12435,7 +12435,7 @@
                     "type": "Polygon",
                     "id": "3543253",
                     "properties": {
-                        "name": "RIBEIR\u00c3O GRANDE",
+                        "name": "RIBEIRÃO GRANDE",
                         "population": 7419,
                         "salary": 2.0
                     },
@@ -12452,7 +12452,7 @@
                     "type": "Polygon",
                     "id": "3543303",
                     "properties": {
-                        "name": "RIBEIR\u00c3O PIRES",
+                        "name": "RIBEIRÃO PIRES",
                         "population": 113043,
                         "salary": 2.6
                     },
@@ -12476,7 +12476,7 @@
                     "type": "Polygon",
                     "id": "3543402",
                     "properties": {
-                        "name": "RIBEIR\u00c3O PRETO",
+                        "name": "RIBEIRÃO PRETO",
                         "population": 605114,
                         "salary": 2.9
                     },
@@ -12536,7 +12536,7 @@
                     "type": "Polygon",
                     "id": "3543709",
                     "properties": {
-                        "name": "RINC\u00c3O",
+                        "name": "RINCÃO",
                         "population": 10414,
                         "salary": 2.1
                     },
@@ -12557,7 +12557,7 @@
                     "type": "Polygon",
                     "id": "3543808",
                     "properties": {
-                        "name": "RIN\u00d3POLIS",
+                        "name": "RINÓPOLIS",
                         "population": 9935,
                         "salary": 2.3
                     },
@@ -12743,7 +12743,7 @@
                     "type": "Polygon",
                     "id": "3544202",
                     "properties": {
-                        "name": "RIOL\u00c2NDIA",
+                        "name": "RIOLÂNDIA",
                         "population": 10574,
                         "salary": 2.2
                     },
@@ -12800,7 +12800,7 @@
                     "type": "Polygon",
                     "id": "3544400",
                     "properties": {
-                        "name": "RUBI\u00c1CEA",
+                        "name": "RUBIÁCEA",
                         "population": 2729,
                         "salary": 2.1
                     },
@@ -12817,7 +12817,7 @@
                     "type": "Polygon",
                     "id": "3544509",
                     "properties": {
-                        "name": "RUBIN\u00c9IA",
+                        "name": "RUBINÉIA",
                         "population": 2862,
                         "salary": 2.3
                     },
@@ -12953,7 +12953,7 @@
                     "type": "Polygon",
                     "id": "3545001",
                     "properties": {
-                        "name": "SALES\u00d3POLIS",
+                        "name": "SALESÓPOLIS",
                         "population": 15639,
                         "salary": 2.0
                     },
@@ -12975,7 +12975,7 @@
                     "type": "Polygon",
                     "id": "3545100",
                     "properties": {
-                        "name": "SALMOUR\u00c3O",
+                        "name": "SALMOURÃO",
                         "population": 4818,
                         "salary": 1.9
                     },
@@ -13142,7 +13142,7 @@
                     "type": "Polygon",
                     "id": "3545605",
                     "properties": {
-                        "name": "SANTA AD\u00c9LIA",
+                        "name": "SANTA ADÉLIA",
                         "population": 14333,
                         "salary": 2.8
                     },
@@ -13181,7 +13181,7 @@
                     "type": "Polygon",
                     "id": "3545803",
                     "properties": {
-                        "name": "SANTA B\u00c1RBARA D'OESTE",
+                        "name": "SANTA BÁRBARA D'OESTE",
                         "population": 180148,
                         "salary": 2.7
                     },
@@ -13370,7 +13370,7 @@
                     "type": "Polygon",
                     "id": "3546207",
                     "properties": {
-                        "name": "SANTA CRUZ DA CONCEI\u00c7\u00c3O",
+                        "name": "SANTA CRUZ DA CONCEIÇÃO",
                         "population": 3998,
                         "salary": 2.2
                     },
@@ -13389,7 +13389,7 @@
                     "type": "Polygon",
                     "id": "3546256",
                     "properties": {
-                        "name": "SANTA CRUZ DA ESPERAN\u00c7A",
+                        "name": "SANTA CRUZ DA ESPERANÇA",
                         "population": 1953,
                         "salary": 1.8
                     },
@@ -13498,7 +13498,7 @@
                     "type": "Polygon",
                     "id": "3546603",
                     "properties": {
-                        "name": "SANTA F\u00c9 DO SUL",
+                        "name": "SANTA FÉ DO SUL",
                         "population": 29235,
                         "salary": 2.0
                     },
@@ -13563,7 +13563,7 @@
                     "type": "Polygon",
                     "id": "3546900",
                     "properties": {
-                        "name": "SANTA L\u00daCIA",
+                        "name": "SANTA LÚCIA",
                         "population": 8246,
                         "salary": 2.0
                     },
@@ -13643,7 +13643,7 @@
                     "type": "Polygon",
                     "id": "3547304",
                     "properties": {
-                        "name": "SANTANA DE PARNA\u00cdBA",
+                        "name": "SANTANA DE PARNAÍBA",
                         "population": 108875,
                         "salary": 3.2
                     },
@@ -13745,7 +13745,7 @@
                     "type": "Polygon",
                     "id": "3547700",
                     "properties": {
-                        "name": "SANTO ANAST\u00c1CIO",
+                        "name": "SANTO ANASTÁCIO",
                         "population": 20498,
                         "salary": 2.1
                     },
@@ -13763,7 +13763,7 @@
                     "type": "Polygon",
                     "id": "3547809",
                     "properties": {
-                        "name": "SANTO ANDR\u00c9",
+                        "name": "SANTO ANDRÉ",
                         "population": 673914,
                         "salary": 3.0
                     },
@@ -13789,7 +13789,7 @@
                     "type": "Polygon",
                     "id": "3547908",
                     "properties": {
-                        "name": "SANTO ANT\u00d4NIO DA ALEGRIA",
+                        "name": "SANTO ANTÔNIO DA ALEGRIA",
                         "population": 6304,
                         "salary": 1.6
                     },
@@ -13806,7 +13806,7 @@
                     "type": "Polygon",
                     "id": "3548005",
                     "properties": {
-                        "name": "SANTO ANT\u00d4NIO DE POSSE",
+                        "name": "SANTO ANTÔNIO DE POSSE",
                         "population": 20635,
                         "salary": 2.6
                     },
@@ -13827,7 +13827,7 @@
                     "type": "Polygon",
                     "id": "3548054",
                     "properties": {
-                        "name": "SANTO ANT\u00d4NIO DO ARACANGU\u00c1",
+                        "name": "SANTO ANTÔNIO DO ARACANGUÁ",
                         "population": 7627,
                         "salary": 2.0
                     },
@@ -13850,7 +13850,7 @@
                     "type": "Polygon",
                     "id": "3548104",
                     "properties": {
-                        "name": "SANTO ANT\u00d4NIO DO JARDIM",
+                        "name": "SANTO ANTÔNIO DO JARDIM",
                         "population": 5943,
                         "salary": 1.9
                     },
@@ -13866,7 +13866,7 @@
                     "type": "Polygon",
                     "id": "3548203",
                     "properties": {
-                        "name": "SANTO ANT\u00d4NIO DO PINHAL",
+                        "name": "SANTO ANTÔNIO DO PINHAL",
                         "population": 6516,
                         "salary": 1.7
                     },
@@ -13902,7 +13902,7 @@
                     "type": "Polygon",
                     "id": "3548401",
                     "properties": {
-                        "name": "SANT\u00d3POLIS DO AGUAPE\u00cd",
+                        "name": "SANTÓPOLIS DO AGUAPEÍ",
                         "population": 4281,
                         "salary": 1.8
                     },
@@ -13944,7 +13944,7 @@
                     "type": "Polygon",
                     "id": "3548609",
                     "properties": {
-                        "name": "S\u00c3O BENTO DO SAPUCA\u00cd",
+                        "name": "SÃO BENTO DO SAPUCAÍ",
                         "population": 10462,
                         "salary": 1.7
                     },
@@ -13960,7 +13960,7 @@
                     "type": "Polygon",
                     "id": "3548708",
                     "properties": {
-                        "name": "S\u00c3O BERNARDO DO CAMPO",
+                        "name": "SÃO BERNARDO DO CAMPO",
                         "population": 765203,
                         "salary": 4.0
                     },
@@ -14022,7 +14022,7 @@
                     "type": "Polygon",
                     "id": "3548807",
                     "properties": {
-                        "name": "S\u00c3O CAETANO DO SUL",
+                        "name": "SÃO CAETANO DO SUL",
                         "population": 149571,
                         "salary": 3.6
                     },
@@ -14042,7 +14042,7 @@
                     "type": "Polygon",
                     "id": "3548906",
                     "properties": {
-                        "name": "S\u00c3O CARLOS",
+                        "name": "SÃO CARLOS",
                         "population": 221936,
                         "salary": 3.2
                     },
@@ -14065,7 +14065,7 @@
                     "type": "Polygon",
                     "id": "3549003",
                     "properties": {
-                        "name": "S\u00c3O FRANCISCO",
+                        "name": "SÃO FRANCISCO",
                         "population": 2793,
                         "salary": 2.5
                     },
@@ -14083,7 +14083,7 @@
                     "type": "Polygon",
                     "id": "3549102",
                     "properties": {
-                        "name": "S\u00c3O JO\u00c3O DA BOA VISTA",
+                        "name": "SÃO JOÃO DA BOA VISTA",
                         "population": 83661,
                         "salary": 2.5
                     },
@@ -14212,7 +14212,7 @@
                     "type": "Polygon",
                     "id": "3549201",
                     "properties": {
-                        "name": "S\u00c3O JO\u00c3O DAS DUAS PONTES",
+                        "name": "SÃO JOÃO DAS DUAS PONTES",
                         "population": 2566,
                         "salary": 2.1
                     },
@@ -14229,7 +14229,7 @@
                     "type": "Polygon",
                     "id": "3549250",
                     "properties": {
-                        "name": "S\u00c3O JO\u00c3O DE IRACEMA",
+                        "name": "SÃO JOÃO DE IRACEMA",
                         "population": 1780,
                         "salary": 2.3
                     },
@@ -14248,7 +14248,7 @@
                     "type": "Polygon",
                     "id": "3549300",
                     "properties": {
-                        "name": "S\u00c3O JO\u00c3O DO PAU D'ALHO",
+                        "name": "SÃO JOÃO DO PAU D'ALHO",
                         "population": 2103,
                         "salary": 2.3
                     },
@@ -14267,7 +14267,7 @@
                     "type": "Polygon",
                     "id": "3549409",
                     "properties": {
-                        "name": "S\u00c3O JOAQUIM DA BARRA",
+                        "name": "SÃO JOAQUIM DA BARRA",
                         "population": 46524,
                         "salary": 2.9
                     },
@@ -14285,7 +14285,7 @@
                     "type": "Polygon",
                     "id": "3549508",
                     "properties": {
-                        "name": "S\u00c3O JOS\u00c9 DA BELA VISTA",
+                        "name": "SÃO JOSÉ DA BELA VISTA",
                         "population": 8407,
                         "salary": 1.9
                     },
@@ -14305,7 +14305,7 @@
                     "type": "Polygon",
                     "id": "3549607",
                     "properties": {
-                        "name": "S\u00c3O JOS\u00c9 DO BARREIRO",
+                        "name": "SÃO JOSÉ DO BARREIRO",
                         "population": 4097,
                         "salary": 2.0
                     },
@@ -14324,7 +14324,7 @@
                     "type": "Polygon",
                     "id": "3549706",
                     "properties": {
-                        "name": "S\u00c3O JOS\u00c9 DO RIO PARDO",
+                        "name": "SÃO JOSÉ DO RIO PARDO",
                         "population": 51910,
                         "salary": 2.3
                     },
@@ -14352,7 +14352,7 @@
                     "type": "Polygon",
                     "id": "3549805",
                     "properties": {
-                        "name": "S\u00c3O JOS\u00c9 DO RIO PRETO",
+                        "name": "SÃO JOSÉ DO RIO PRETO",
                         "population": 408435,
                         "salary": 2.7
                     },
@@ -14371,7 +14371,7 @@
                     "type": "Polygon",
                     "id": "3549904",
                     "properties": {
-                        "name": "S\u00c3O JOS\u00c9 DOS CAMPOS",
+                        "name": "SÃO JOSÉ DOS CAMPOS",
                         "population": 627544,
                         "salary": 3.7
                     },
@@ -14399,7 +14399,7 @@
                     "type": "Polygon",
                     "id": "3549953",
                     "properties": {
-                        "name": "S\u00c3O LOUREN\u00c7O DA SERRA",
+                        "name": "SÃO LOURENÇO DA SERRA",
                         "population": 13985,
                         "salary": 1.4
                     },
@@ -14448,7 +14448,7 @@
                     "type": "Polygon",
                     "id": "3550001",
                     "properties": {
-                        "name": "S\u00c3O LU\u00cdS DO PARAITINGA",
+                        "name": "SÃO LUÍS DO PARAITINGA",
                         "population": 10404,
                         "salary": 2.1
                     },
@@ -14467,7 +14467,7 @@
                     "type": "Polygon",
                     "id": "3550100",
                     "properties": {
-                        "name": "S\u00c3O MANUEL",
+                        "name": "SÃO MANUEL",
                         "population": 38390,
                         "salary": 2.6
                     },
@@ -14490,7 +14490,7 @@
                     "type": "Polygon",
                     "id": "3550209",
                     "properties": {
-                        "name": "S\u00c3O MIGUEL ARCANJO",
+                        "name": "SÃO MIGUEL ARCANJO",
                         "population": 31452,
                         "salary": 1.9
                     },
@@ -14508,7 +14508,7 @@
                     "type": "Polygon",
                     "id": "3550308",
                     "properties": {
-                        "name": "S\u00c3O PAULO",
+                        "name": "SÃO PAULO",
                         "population": 11244369,
                         "salary": 4.2
                     },
@@ -14850,7 +14850,7 @@
                     "type": "Polygon",
                     "id": "3550407",
                     "properties": {
-                        "name": "S\u00c3O PEDRO",
+                        "name": "SÃO PEDRO",
                         "population": 31688,
                         "salary": 2.1
                     },
@@ -14876,7 +14876,7 @@
                     "type": "Polygon",
                     "id": "3550506",
                     "properties": {
-                        "name": "S\u00c3O PEDRO DO TURVO",
+                        "name": "SÃO PEDRO DO TURVO",
                         "population": 7208,
                         "salary": 2.6
                     },
@@ -14898,7 +14898,7 @@
                     "type": "Polygon",
                     "id": "3550605",
                     "properties": {
-                        "name": "S\u00c3O ROQUE",
+                        "name": "SÃO ROQUE",
                         "population": 78873,
                         "salary": 2.3
                     },
@@ -14920,7 +14920,7 @@
                     "type": "MultiPolygon",
                     "id": "3550704",
                     "properties": {
-                        "name": "S\u00c3O SEBASTI\u00c3O",
+                        "name": "SÃO SEBASTIÃO",
                         "population": 73833,
                         "salary": 3.2
                     },
@@ -14941,7 +14941,7 @@
                     "type": "Polygon",
                     "id": "3550803",
                     "properties": {
-                        "name": "S\u00c3O SEBASTI\u00c3O DA GRAMA",
+                        "name": "SÃO SEBASTIÃO DA GRAMA",
                         "population": 12100,
                         "salary": 1.9
                     },
@@ -15003,7 +15003,7 @@
                     "type": "Polygon",
                     "id": "3550902",
                     "properties": {
-                        "name": "S\u00c3O SIM\u00c3O",
+                        "name": "SÃO SIMÃO",
                         "population": 14350,
                         "salary": 2.1
                     },
@@ -15031,7 +15031,7 @@
                     "type": "Polygon",
                     "id": "3551009",
                     "properties": {
-                        "name": "S\u00c3O VICENTE",
+                        "name": "SÃO VICENTE",
                         "population": 332424,
                         "salary": 2.6
                     },
@@ -15054,7 +15054,7 @@
                     "type": "Polygon",
                     "id": "3551108",
                     "properties": {
-                        "name": "SARAPU\u00cd",
+                        "name": "SARAPUÍ",
                         "population": 9027,
                         "salary": 1.8
                     },
@@ -15081,7 +15081,7 @@
                     "type": "Polygon",
                     "id": "3551207",
                     "properties": {
-                        "name": "SARUTAI\u00c1",
+                        "name": "SARUTAIÁ",
                         "population": 3622,
                         "salary": 2.1
                     },
@@ -15099,7 +15099,7 @@
                     "type": "Polygon",
                     "id": "3551306",
                     "properties": {
-                        "name": "SEBASTIAN\u00d3POLIS DO SUL",
+                        "name": "SEBASTIANÓPOLIS DO SUL",
                         "population": 3031,
                         "salary": 3.3
                     },
@@ -15203,7 +15203,7 @@
                     "type": "Polygon",
                     "id": "3551702",
                     "properties": {
-                        "name": "SERT\u00c3OZINHO",
+                        "name": "SERTÃOZINHO",
                         "population": 110094,
                         "salary": 3.1
                     },
@@ -15282,7 +15282,7 @@
                     "type": "Polygon",
                     "id": "3551900",
                     "properties": {
-                        "name": "SEVER\u00cdNIA",
+                        "name": "SEVERÍNIA",
                         "population": 15504,
                         "salary": 2.3
                     },
@@ -15390,7 +15390,7 @@
                     "type": "Polygon",
                     "id": "3552403",
                     "properties": {
-                        "name": "SUMAR\u00c9",
+                        "name": "SUMARÉ",
                         "population": 241437,
                         "salary": 3.9
                     },
@@ -15689,7 +15689,7 @@
                     "type": "Polygon",
                     "id": "3552551",
                     "properties": {
-                        "name": "SUZAN\u00c1POLIS",
+                        "name": "SUZANÁPOLIS",
                         "population": 3383,
                         "salary": 3.2
                     },
@@ -15707,7 +15707,7 @@
                     "type": "Polygon",
                     "id": "3552601",
                     "properties": {
-                        "name": "TABAPU\u00c3",
+                        "name": "TABAPUÃ",
                         "population": 11366,
                         "salary": 2.1
                     },
@@ -15744,7 +15744,7 @@
                     "type": "Polygon",
                     "id": "3552809",
                     "properties": {
-                        "name": "TABO\u00c3O DA SERRA",
+                        "name": "TABOÃO DA SERRA",
                         "population": 244719,
                         "salary": 2.6
                     },
@@ -15843,7 +15843,7 @@
                     "type": "Polygon",
                     "id": "3553005",
                     "properties": {
-                        "name": "TAGUA\u00cd",
+                        "name": "TAGUAÍ",
                         "population": 10825,
                         "salary": 1.3
                     },
@@ -15862,7 +15862,7 @@
                     "type": "Polygon",
                     "id": "3553104",
                     "properties": {
-                        "name": "TAIA\u00c7U",
+                        "name": "TAIAÇU",
                         "population": 5894,
                         "salary": 2.0
                     },
@@ -15880,7 +15880,7 @@
                     "type": "Polygon",
                     "id": "3553203",
                     "properties": {
-                        "name": "TAI\u00daVA",
+                        "name": "TAIÚVA",
                         "population": 5447,
                         "salary": 2.1
                     },
@@ -15901,7 +15901,7 @@
                     "type": "Polygon",
                     "id": "3553302",
                     "properties": {
-                        "name": "TAMBA\u00da",
+                        "name": "TAMBAÚ",
                         "population": 22410,
                         "salary": 2.1
                     },
@@ -15959,7 +15959,7 @@
                     "type": "Polygon",
                     "id": "3553500",
                     "properties": {
-                        "name": "TAPIRA\u00cd",
+                        "name": "TAPIRAÍ",
                         "population": 8015,
                         "salary": 1.8
                     },
@@ -16067,7 +16067,7 @@
                     "type": "Polygon",
                     "id": "3553856",
                     "properties": {
-                        "name": "TAQUARIVA\u00cd",
+                        "name": "TAQUARIVAÍ",
                         "population": 5149,
                         "salary": 1.9
                     },
@@ -16120,7 +16120,7 @@
                     "type": "Polygon",
                     "id": "3553955",
                     "properties": {
-                        "name": "TARUM\u00c3",
+                        "name": "TARUMÃ",
                         "population": 12883,
                         "salary": 2.5
                     },
@@ -16138,7 +16138,7 @@
                     "type": "Polygon",
                     "id": "3554003",
                     "properties": {
-                        "name": "TATU\u00cd",
+                        "name": "TATUÍ",
                         "population": 107975,
                         "salary": 2.6
                     },
@@ -16159,7 +16159,7 @@
                     "type": "Polygon",
                     "id": "3554102",
                     "properties": {
-                        "name": "TAUBAT\u00c9",
+                        "name": "TAUBATÉ",
                         "population": 278724,
                         "salary": 3.4
                     },
@@ -16180,7 +16180,7 @@
                     "type": "Polygon",
                     "id": "3554201",
                     "properties": {
-                        "name": "TEJUP\u00c1",
+                        "name": "TEJUPÁ",
                         "population": 4809,
                         "salary": 1.6
                     },
@@ -16254,7 +16254,7 @@
                     "type": "Polygon",
                     "id": "3554508",
                     "properties": {
-                        "name": "TIET\u00ca",
+                        "name": "TIETÊ",
                         "population": 36827,
                         "salary": 2.3
                     },
@@ -16374,7 +16374,7 @@
                     "type": "Polygon",
                     "id": "3554805",
                     "properties": {
-                        "name": "TREMEMB\u00c9",
+                        "name": "TREMEMBÉ",
                         "population": 40985,
                         "salary": 2.4
                     },
@@ -16390,7 +16390,7 @@
                     "type": "Polygon",
                     "id": "3554904",
                     "properties": {
-                        "name": "TR\u00caS FRONTEIRAS",
+                        "name": "TRÊS FRONTEIRAS",
                         "population": 5428,
                         "salary": 2.2
                     },
@@ -16432,7 +16432,7 @@
                     "type": "Polygon",
                     "id": "3555000",
                     "properties": {
-                        "name": "TUP\u00c3",
+                        "name": "TUPÃ",
                         "population": 63492,
                         "salary": 2.0
                     },
@@ -16499,7 +16499,7 @@
                     "type": "Polygon",
                     "id": "3555208",
                     "properties": {
-                        "name": "TURI\u00daBA",
+                        "name": "TURIÚBA",
                         "population": 1927,
                         "salary": 2.2
                     },
@@ -16644,7 +16644,7 @@
                     "type": "Polygon",
                     "id": "3555703",
                     "properties": {
-                        "name": "UNI\u00c3O PAULISTA",
+                        "name": "UNIÃO PAULISTA",
                         "population": 1599,
                         "salary": 2.1
                     },
@@ -16661,7 +16661,7 @@
                     "type": "Polygon",
                     "id": "3555802",
                     "properties": {
-                        "name": "UR\u00c2NIA",
+                        "name": "URÂNIA",
                         "population": 8836,
                         "salary": 2.0
                     },
@@ -16742,7 +16742,7 @@
                     "type": "Polygon",
                     "id": "3556008",
                     "properties": {
-                        "name": "URUP\u00caS",
+                        "name": "URUPÊS",
                         "population": 12720,
                         "salary": 2.1
                     },
@@ -16802,7 +16802,7 @@
                     "type": "Polygon",
                     "id": "3556305",
                     "properties": {
-                        "name": "VALPARA\u00cdSO",
+                        "name": "VALPARAÍSO",
                         "population": 22617,
                         "salary": 2.7
                     },
@@ -16925,7 +16925,7 @@
                     "type": "Polygon",
                     "id": "3556503",
                     "properties": {
-                        "name": "V\u00c1RZEA PAULISTA",
+                        "name": "VÁRZEA PAULISTA",
                         "population": 107146,
                         "salary": 3.0
                     },
@@ -17044,7 +17044,7 @@
                     "type": "Polygon",
                     "id": "3556958",
                     "properties": {
-                        "name": "VIT\u00d3RIA BRASIL",
+                        "name": "VITÓRIA BRASIL",
                         "population": 1737,
                         "salary": 2.3
                     },

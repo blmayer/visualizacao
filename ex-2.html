@@ -32,7 +32,7 @@
         // set the dimensions and margins of the graph
         var margin = { top: 20, right: 20, bottom: 30, left: 50 },
             width = 960 - margin.left - margin.right,
-            height = 500 - margin.top - margin.bottom;
+            height = 700 - margin.top - margin.bottom;
 
         // set the ranges
         var x = d3.scaleLinear().range([0, width]);
@@ -228,6 +228,23 @@
                         .style("opacity", 0);
                 });
 
+
+            // text label for the x axis
+            svg.append("text")
+                .attr("transform",
+                    "translate(" + width + " ," +
+                    (height + margin.top + 10) + ")")
+                .style("text-anchor", "middle")
+                .text("i");
+
+            // text label for the y axis
+            svg.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - margin.left)
+                .attr("x", 0 - (height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("log(∆i)");
 
             // Add title
             svg.append("text")

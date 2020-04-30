@@ -4,6 +4,21 @@
 <head>
     <title>Ulam Spiral with D3.js</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js" charset="utf-8"></script>
+
+    <style>
+        div.tooltip {
+            position: absolute;
+            text-align: center;
+            width: 60px;
+            height: 20px;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+    </style>
 </head>
 
 <body style="background-color:black">
@@ -31,6 +46,11 @@
         }
         return result;
     }
+
+    // Define the div for the tooltip
+    var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
 
     var cornerCoordsForX = generateBaseArray(size);
     var cornerCoordsForY = generateBaseArray(size);
@@ -75,8 +95,8 @@
     }
 
     function divisors(n) {
-        var divs = 1;
-        for (var i = 0; i < n; i++) {
+        var divs = 2;
+        for (var i = 2; i < n; i++) {
             if (n % i == 0) {
                 divs++;
             }
@@ -116,7 +136,20 @@
         .attr("font-size", fontSize(i))
         .attr("fill", function (d, i) {
             var d = divisors(i + 1);
-            return d3.rgb(Math.min(d * 10, 255), 0, 0);
+            return d3.rgb(Math.min(d * 10, 255), Math.min(d * 10, 255), 0);
+        })
+        .on("mouseover", function (d, i) {
+            div.transition()
+                .duration(200)
+                .style("opacity", .9);
+            div.html(divisors(i+1))
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function (d) {
+            div.transition()
+                .duration(1000)
+                .style("opacity", 0);
         });
 
 </script>
