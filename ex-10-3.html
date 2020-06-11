@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Force based label placement</title>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="//d3js.org/queue.v1.min.js"></script>
+
+    <style>
+        html {
+            min-width: 1040px;
+        }
+
+        header,
+        footer {
+            font-size: small;
+            font-family: sans-serif;
+            color: gray;
+        }
+
+        svg {
+            font: 9px sans-serif;
+        }
+
+        h1 {
+            width: 600px;
+            font-size: 64px;
+            font-weight: 300;
+            letter-spacing: -2px;
+            margin: 0 auto;
+        }
+
+        body {
+            background: #fcfcfa;
+            color: #333;
+            font-family: "sans";
+            margin: 1em auto 4em auto;
+            position: relative;
+            width: 960px;
+        }
+
+        p {
+            font-family: sans-serif;
+            color: #333;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        blmayer / r-packages-field
+    </header>
+    <h1>R Packages community</h1>
+    <div style="width: 600px; margin: 0 auto;">
+        <p>
+            The diagram below shows one of the many communities that
+            emerge from the dependency between R packages. That is, two
+            packages are connected if there a dependency between them.
+        </p>
+        <p>
+            These communities show the coupling of these packages, meaning
+            that changes to one of them affect many others. Also a topic
+            can be noticed.
+        </p>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        const w = 960, h = 700;
+
+        var vis = d3.select("body")
+            .append("svg:svg")
+            .attr("width", w)
+            .attr("height", h);
+
+        var nodes = [];
+        var labelAnchors = [];
+        var labelAnchorLinks = [];
+        var links = [];
+
+        // Loading data
+        queue()
+            .defer(d3.csv, "packages-12.csv")
+            .defer(d3.json, "matrix-12.json")
+            .await(ready);
+
+        function ready(error, packages, matrix) {
+            if (error) throw error;
+            for (i in packages) {
+                var node = {
+                    label: packages[i].name
+                };
+                nodes.push(node);
+                labelAnchors.push({
+                    node: node
+                });
+                labelAnchors.push({
+                    node: node
+                });
+            };
+
+            // Adjacency matrix
+            for (var i = 0; i < nodes.length; i++) {
+                for (var j = 0; j < nodes.length; j++) {
+                    if (matrix[i][j] != 0)
+                        links.push({
+                            source: i,
+                            target: j,
+                            weight: 1
+                        });
+                }
+                labelAnchorLinks.push({
+                    source: i * 2,
+                    target: i * 2 + 1,
+                    weight: 1
+                });
+            };
+
+            // Force stuff
+            var force = d3.layout.force()
+                .size([w, h])
+                .nodes(nodes)
+                .links(links)
+                .gravity(1)
+                .linkDistance(50)
+                .charge(-1500)
+                .linkStrength(function (x) {
+                    return x.weight
+                });
+
+            var force2 = d3.layout.force()
+                .nodes(labelAnchors)
+                .links(labelAnchorLinks)
+                .gravity(0)
+                .linkDistance(8)
+                .linkStrength(2)
+                .charge(-5)
+                .size([w, h]);
+
+            force2.start();
+            force.start();
+
+            var link = vis.selectAll("line.link")
+                .data(links)
+                .enter()
+                .append("svg:line")
+                .attr("class", "link")
+                .style("stroke", "#CCC");
+
+            var node = vis.selectAll("g.node")
+                .data(force.nodes())
+                .enter()
+                .append("svg:g")
+                .attr("class", "node");
+
+            node.append("svg:circle")
+                .attr("r", 5)
+                .style("fill", "#555")
+                .style("stroke", "#FFF")
+                .style("stroke-width", 3);
+
+            node.call(force.drag);
+
+            var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks);
+
+            var anchorNode = vis.selectAll("g.anchorNode")
+                .data(force2.nodes())
+                .enter()
+                .append("svg:g")
+                .attr("class", "anchorNode");
+
+            anchorNode.append("svg:circle")
+                .attr("r", 0)
+                .style("fill", "#FFF");
+
+            anchorNode.append("svg:text")
+                .text(function (d, i) {
+                    return i % 2 == 0 ? "" : d.node.label
+                })
+                .style("fill", "#555")
+                .style("font-family", "Arial")
+                .style("font-size", 12);
+
+            var updateLink = function () {
+                this.attr("x1", function (d) {
+                    return d.source.x;
+                }).attr("y1", function (d) {
+                    return d.source.y;
+                }).attr("x2", function (d) {
+                    return d.target.x;
+                }).attr("y2", function (d) {
+                    return d.target.y;
+                });
+
+            }
+
+            var updateNode = function () {
+                this.attr("transform", function (d) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+            }
+
+            force.on("tick", function () {
+                node.call(updateNode);
+                force2.start();
+
+                anchorNode.each(function (d, i) {
+                    if (i % 2 == 0) {
+                        d.x = d.node.x;
+                        d.y = d.node.y;
+                    } else {
+                        var b = this.childNodes[1].getBBox();
+
+                        var diffX = d.x - d.node.x;
+                        var diffY = d.y - d.node.y;
+
+                        var dist = Math.sqrt(diffX * diffX + diffY * diffY);
+
+                        var shiftX = b.width * (diffX - dist) / (dist * 2);
+                        shiftX = Math.max(-b.width, Math.min(0, shiftX));
+                        var shiftY = 5;
+                        this.childNodes[1].setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
+                    }
+                });
+
+                anchorNode.call(updateNode);
+                link.call(updateLink);
+                anchorLink.call(updateLink);
+            });
+        }
+
+    </script>
+</body>
+
+</html>

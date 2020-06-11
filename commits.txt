@@ -1,0 +1,165 @@
+1590464356 Added missing lecture material
+1590462342 Added lecture notes
+1590462284 Added exercises 1, 3 and 4
+1588377750 Added lecture 7 notes
+1588377690 Added execises 8 and 9 files
+1588377591 Moved primes folder upp
+1588343137 Using fixed size array
+1588343115 Added usage
+1588343101 Added argument to select algorithm
+1588120382 Added lecture notes
+1588110525 Added script to create data
+1588110504 Removed old dataset
+1588110481 Added exercise 6
+1588110467 Renamed exercises
+1588110407 Adjusted parameters
+1588110378 Added tests
+1588110368 Added generator os primes
+1588110357 Renamed to algo
+1588110344 Added files with calculated primes
+1588109884 Added results for 11-prime horizontal visibility
+1588040500 Added go mod
+1588040485 Implemented visibility algorithmos
+1588040474 Added package to generate primes
+1588040460 Added go code to generate primes
+1587613033 Reorganized folder
+1586408702 Improved code
+1586304260 Added São Paulo cities json
+1586303844 Added graph file
+1586303773 Added exercice 3 file
+1586303762 Added aula 1 material
+1586221303 Added homework file
+1586133503 Added aula 2 exercises
+1586133486 Moved to folder
+1586128090 Added exercise files
+1586128024 Added lecture notes from moodle
+1585875909 Added lecture notes
+1585802502 Added lecture notes pdfs
+1585802396 Added some graphs
+1585802333 Improved precision
+1585802307 Changed graphs names
+1585802211 Added article figures
+1585802155 Added 9-primes
+1585802109 Added exercise 2 files
+1585802055 Changed extensions
+1585801931 Added course material
+1585801896 Added exercice 1 files
+1585104546 Added exercice 1.1
+1584757409 Added more primes
+1583804352 Added file about sdl complexity
+1583803700 Merge branch 'master' of github.com:blmayer/doctorate
+1583803662 Added visualizacao files
+1583803662 Added visualizacao files
+1583803596 Removed subsections
+1583803541 Added sistemas complexos lecture notes
+1580787884 Added articles about complexity
+1574622240 Added database file
+1574622168 Updated cache files
+1574620666 Added eps graphics
+1574620631 Added results file
+1574620589 Updated notebooks
+1574276394 Merged into article
+1574276351 Updated presentation
+1574276148 Adjusted categories
+1574276067 Added more articles
+1574276043 Added article presentation
+1574275974 Adjusted for final run
+1574275904 Added article analisys file
+1574275864 Removed uncompressed database files
+1574275808 Added compressed database files
+1574275604 Added database files for first presentation
+1574275567 Removed apache category
+1574275318 Added R project file
+1573586090 Added author email
+1573586056 Added keywords
+1573585298 Added results section
+1573532937 Added linear classifiers
+1573530371 Added abstract and classifiers models
+1573530345 Added more classifiers for comparison
+1573522885 Added methodology section
+1573491354 Added the KDD article
+1573491317 Changed model to fit the slashdot dataset
+1573491282 Added exercice 7
+1573491271 Added exercice 6
+1573491246 Saved model for importing
+1573491220 Added slashdot dataset for training
+1573491197 Added a classifier script
+1573005032 Moved imports to beginning of file
+1573004966 Detailed removed points
+1572216358 Added my lecture presentation
+1572216282 Added new exercise
+1572215100 Added lecture notes
+1571769263 Added lecture 4 notes
+1571769185 Added sequence reference to formula
+1571769138 Added main project file
+1571769120 Added performance metrics and deleted Rakel
+1571107493 Added references part
+1571107454 Added article
+1571107432 Removed examples
+1570818578 Rounded coefficients
+1570818534 Removed usused graphics
+1570754936 Added more primes
+1570754913 Updated table, refs and class
+1570754892 Added Physica A articles
+1570668231 Added lecture material
+1570668092 Added graphics of distributions
+1570668033 Added photo examples
+1570668005 Added standard errors in table
+1570667958 Added exercise 4
+1570665393 Removed luiz references
+1570660698 Further removed subsections
+1569893697 Added figures used in article
+1569893606 Added a book about prime numbers
+1569893551 Fixed typos and elaborated more analisys and results
+1569797880 Added anallisys and results
+1569547710 Added graphs images
+1569466950 Moved file to dedicated project
+1569445773 Added graph definition
+1569440435 Advanced sections 1 and 2
+1569343676 Added two definitions
+1569343649 Added n-prime definition
+1569026497 Added section placeholders
+1569025699 Added definitions section
+1568938143 Moved notebooks to article dir
+1568938095 Changed to Aprendizagem multiclasse
+1568938039 Added article source and figures
+1568603035 Updated graphics presentation
+1568498812 Added cache files for speedup
+1568420175 Added lecture notes
+1568420031 Advanced training function a little
+1568222365 Made calculations for primes- 3 and 4
+1568222338 Switched back to S4
+1568222315 Added one more example
+1568146777 Deleted temporary files
+1568146746 Added example
+1568089662 Saved some results to dump files
+1568089583 Improved examples a bit
+1568089569 Added a new article
+1568089558 Added referencial file
+1568081819 Added dump files
+1567984737 Implemented layer and neuron classes
+1567970896 Added dump data to avoid recalculation
+1567970860 Switched to S3 classes
+1567970761 Added article to lecture notes
+1567970730 Added lecture notes
+1567725861 Changed neural nets to S3
+1567555792 Added more articles
+1567479965 Moved articles to a folder
+1567447303 Updated graphics
+1567446181 Added more articles
+1567395295 Added model fit
+1567383262 Added two books
+1567383103 Added one more article
+1567382971 Added presentation, some articles and ex3
+1567032597 Added function parameters
+1567009804 Deleted mac file
+1567009753 Added two articles
+1566959186 Added thesis files
+1566953757 Added theme
+1566945698 Added gitignore file
+1566945603 Added articles from Luiz
+1566874985 Added exercise 2
+1566772397 Moved articles to folder
+1566771888 Added redes neurais files
+1566433961 Added some articles
+1566433870 Initial commit
