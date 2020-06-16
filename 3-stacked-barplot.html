@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>stacked bar plot</title>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <style type="text/css">
+        body {
+            width: 900px;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+
+        svg {
+            font: 10px sans-serif;
+            shape-rendering: crispEdges;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+        }
+
+        path.domain {
+            stroke: none;
+        }
+
+        .y .tick line {
+            stroke: #ddd;
+        }
+
+        h1,
+        p {
+            font-family: sans-serif;
+            color: darkslategray;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            margin: 0 auto;
+            width: 600px;
+            font-size: small;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Commits on my doctorate repo</h1>
+            <p>
+                It is common to use verbs like, added, removed, updated,
+                renamed, and so on, as the first word on a commit message.
+                So we can use that to characterize changes, tracking the use
+                of those verbs on time gives an impression on how is the repo
+                evolving.
+            </p>
+
+            <div id="chart"></div>
+
+            <script type="text/javascript">
+                var margin = { top: 20, right: 120, bottom: 35, left: 30 };
+                var width = 900 - margin.left - margin.right,
+                    height = 510 - margin.top - margin.bottom;
+
+                var svg = d3.select("#chart")
+                    .append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                var parser = d3.time.format("%Y-%m").parse;
+
+                /* Data in strings like it would be if imported from a csv */
+                d3.csv("commits.csv", function (error, data) {
+                    // This is a group by
+                    const commits = {};
+                    const keys = new Map();
+                    data.forEach(e => {
+                        const yearMon = e.date.slice(0, 7);
+                        const verb = e.title.split(" ")[0];
+                        if (commits[yearMon]) {
+                            commits[yearMon][verb] = commits[yearMon][verb] ? commits[yearMon][verb] + 1 : 1;
+                        } else {
+                            commits[yearMon] = Object.create({});
+                            commits[yearMon][verb] = 1;
+                        }
+                        keys.set(verb, true);
+                    });
+
+                    // Transform into list
+                    const commitList = [];
+                    Object.entries(commits).forEach(([k, v]) => commitList.push({ "date": k, ...v }));
+                    commitList.sort((a, b) => a.date < b.date ? -1 : 1);
+
+                    // Transpose the data into layers
+                    const dataset = d3.layout.stack()(Array.from(keys.keys()).map(function (verb) {
+                        return commitList.map(function (d) {
+                            return { x: parser(d.date), y: d[verb] ? d[verb] : 0, v: verb };
+                        });
+                    }));
+
+                    // Set x, y and colors
+                    var x = d3.scale.ordinal()
+                        .domain(dataset[0].map(function (d) { return d.x; }))
+                        .rangeRoundBands([10, width - 10], 0.02);
+
+                    var y = d3.scale.linear()
+                        .domain([0, d3.max(dataset, (d) => d3.max(d, (d) => d.y0 + d.y))])
+                        .range([height, 0]);
+
+                    const colors = Array.from(keys.keys()).map((_, i) => d3.interpolateTurbo(i / keys.size));
+
+                    // Define and draw axes
+                    var yAxis = d3.svg.axis()
+                        .scale(y)
+                        .orient("left")
+                        .ticks(5)
+                        .tickSize(-width, 0, 0)
+                        .tickFormat(function (d) { return d });
+
+                    var xAxis = d3.svg.axis()
+                        .scale(x)
+                        .orient("bottom")
+                        .tickFormat(d3.time.format("%Y-%m"));
+
+                    svg.append("g")
+                        .attr("class", "y axis")
+                        .call(yAxis);
+
+                    svg.append("g")
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + height + ")")
+                        .call(xAxis);
+
+                    // Create groups for each series, rects for each segment 
+                    var groups = svg.selectAll("g.cost")
+                        .data(dataset)
+                        .enter().append("g")
+                        .attr("class", "cost")
+                        .style("fill", (d, i) => colors[i]);
+
+                    // Tooltip
+                    var rect = groups.selectAll("rect")
+                        .data(function (d) { return d; })
+                        .enter()
+                        .append("rect")
+                        .attr("x", function (d) { return x(d.x); })
+                        .attr("y", function (d) { return y(d.y0 + d.y); })
+                        .attr("height", function (d) { return y(d.y0) - y(d.y0 + d.y); })
+                        .attr("width", x.rangeBand())
+                        .on("mouseover", function () { tooltip.style("display", null); })
+                        .on("mouseout", function () { tooltip.style("display", "none"); })
+                        .on("mousemove", function (d) {
+                            var xPosition = d3.mouse(this)[0] - 50;
+                            var yPosition = d3.mouse(this)[1] - 25;
+                            tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+                            tooltip.select("text").text(d.v + ": " + d.y);
+                        });
+
+
+                    // Draw legend
+                    var legend = svg.selectAll(".legend")
+                        .data(colors)
+                        .enter().append("g")
+                        .attr("class", "legend")
+                        .attr("transform", function (d, i) { return "translate(30," + i * 19 + ")"; });
+
+                    legend.append("rect")
+                        .attr("x", width - 18)
+                        .attr("width", 18)
+                        .attr("height", 19)
+                        .style("fill", (d, i) => colors[i]);
+
+                    legend.append("text")
+                        .attr("x", width + 5)
+                        .attr("y", 9)
+                        .attr("dy", ".35em")
+                        .style("text-anchor", "start")
+                        .text((d, i) => Array.from(keys.keys())[i]);
+
+
+                    // Prep the tooltip bits, initial display is hidden
+                    var tooltip = svg.append("g")
+                        .attr("class", "tooltip")
+                        .style("display", "none");
+
+                    tooltip.append("text")
+                        .attr("x", 50)
+                        .attr("dy", "1.2em")
+                        .style("text-anchor", "middle")
+                        .attr("font-size", "14px")
+                        .attr("stroke", "white")
+                        .attr("stroke-width", ".1px")
+                        .attr("font-weight", "bold");
+                });
+            </script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+[ {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accommodation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accomodation_Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Adventure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Backpacker_Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Destination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Beach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Destination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Bed&Breakfast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Budget_Accommodation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Bungee_Jumping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Adventure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Camping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Family_Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Destination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Hiking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Sports"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Luxury_Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Museums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Sightseeing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#OneStarRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accomodation_Rating" ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Quiet_Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Destination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Relaxation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Safari",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Adventure"
+  }, {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Sightseeing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Sheraton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Luxury_Hotel" ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Sightseeing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Sports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Sunbathing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Relaxation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#ThreeStarRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accomodation_Rating" ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#TwoStarRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accomodation_Rating" ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Yoga",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Relaxation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#hasAccommodation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accommodation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#hasActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#isOffered"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#hasCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#hasContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Contact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#hasEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#hasRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#hasStreet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#hasZipCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#isOffered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#surfing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/blmayer/ontologies/2020/5/untitled-ontology-2#Sports"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topDataProperty",
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+} ]
