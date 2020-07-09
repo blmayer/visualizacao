@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-selection-multi.v0.4.min.js"></script>
+
+    <style>
+        body {
+            background-color: #202020;
+            max-width: 460px;
+            margin: 0 auto;
+        }
+
+        h2, p {
+            color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Number of divisors dispersion plot</h2>
+
+    <p>Finally a dark mode friendly plot!</p>
+    
+    <!-- Create a div where the graph will take place -->
+    <div id="scatter"></div>
+
+    <script>
+        // set the dimensions and margins of the graph
+        var margin = { top: 10, right: 30, bottom: 30, left: 30 },
+            width = 460 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
+
+        // append the svg object to the body of the page
+        var svg = d3.select("#scatter")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .styles({
+                fill: "lightgray",
+                stroke: "lightgray",
+                "stroke-width": "1"
+            })
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        //Read the data
+        d3.csv("numbers.csv", function (data) {
+            // Add X axis
+            var x = d3.scaleLinear()
+                .domain([0, 500])
+                .range([0, width]);
+
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .styles({
+                    fill: "none",
+                    stroke: "darkgray",
+                    "stroke-width": "1"
+                })
+                .call(d3.axisBottom(x));
+
+            // Add Y axis
+            var y = d3.scaleLinear()
+                .domain([0, 30])
+                .range([height, 0]);
+
+            svg.append("g")
+                .styles({
+                    fill: "none",
+                    stroke: "darkgray",
+                    "stroke-width": "1"
+                })
+                .call(d3.axisLeft(y));
+
+            svg.selectAll(".domain")
+                .styles({
+                    fill: "none",
+                    stroke: "lightgray",
+                    "stroke-width": "1"
+                });
+
+            // Add dots
+            svg.append('g')
+                .selectAll("dot")
+                .data(data)
+                .enter()
+                .append("circle")
+                .attr("cx", function (d) { return x(d.n); })
+                .attr("cy", function (d) { return y(d.k); })
+                .attr("r", 1.5)
+                .style("fill", "lightblue")
+        })
+
+    </script>
+</body>
+
+</html>
