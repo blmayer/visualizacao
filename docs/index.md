@@ -27,10 +27,10 @@ during the course.
 
 ### Exercises not delivered as html pages
 
-- [graph.nb](graph.nb)
-- [cmapcloud.pdf](cmapcloud.pdf)
-- [conexp.cex](conexp.cex)
-- [petri-net.apt](petri-net.apt)
+- [graph.nb](15-graph.nb)
+- [cmapcloud.pdf](16-cmapcloud.pdf)
+- [conexp.cex](17-conexp.cex)
+- [petri-net.apt](18-petri-net.apt)
 
 
 ## Final project
