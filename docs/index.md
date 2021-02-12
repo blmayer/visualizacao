@@ -1,5 +1,3 @@
-# visualização e descoberta do conhecimento
-
 Material and pages created to visualize data used
 during my course.
 
@@ -25,6 +23,14 @@ during the course.
 - [sunburst](14-sunburst.html)
 - [chord](15-chord.html)
 - [force-graph](16-force-graph.html)
+
+
+### Exercises not delivered as html pages
+
+- [graph.nb](graph.nb)
+- [cmapcloud.pdf](cmapcloud.pdf)
+- [conexp.cex](conexp.cex)
+- [petri-net.apt](petri-net.apt)
 
 
 ## Final project
