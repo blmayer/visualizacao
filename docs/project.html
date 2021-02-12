@@ -1,0 +1,195 @@
+<head>
+    <script src="//unpkg.com/3d-force-graph@1"></script>
+
+    <style>
+        body {
+            background-color: #202020;
+            color: lightgray;
+            font-family: sans-serif;
+            margin: 0;
+        }
+
+        section {
+            margin: 40px auto 0 auto;
+            max-width: 650px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="text">
+        <h1>Prime relations research</h1>
+        <p>For this presentation the following studies are shown:</p>
+        <div>
+            <input type="radio" name="datasets" onChange="toggleData('prime')" checked> prime links
+            <input type="radio" name="datasets" onChange="toggleData('composite')"> composite links
+            <input type="radio" name="datasets" onChange="toggleData('divisor')"> divisor
+            <input type="radio" name="datasets" onChange="toggleData('orbit')"> divisors orbit graph
+            <input type="radio" name="datasets" onChange="toggleData('gaps')"> prime gaps graph
+        </div>
+        <br>
+    </section>
+
+    <div id="3d-graph"></div>
+
+    <p style="text-align: center;">All nodes are color coded according to their number of divisors.</p>
+
+    <section id="prime" style="display: none;">
+        <h1>About the Goldbach conjecture prime graph</h1>
+        <p>
+            In this visualization if an even composite number is the sum of two primes,
+            say A and B, then there is a link, A --> B, between the two, and the weight
+            of that link is the composite number itself.
+        </p>
+    </section>
+
+    <section id="composite" style="display: none;">
+        <h1>About the Goldbach conjecture composites graph</h1>
+        <p>
+            In this visualization if an even composite number C is the sum of two primes,
+            say A and B, then there we add the following links:
+        </p>
+        <p>A --> C</p>
+        <p>B --> C</p>
+        <p>
+            Both with the same weight, in this manner we create a mix of composite and prime
+            numbers, so the graph shows how "close" are they.
+        </p>
+    </section>
+
+    <section id="divisor" style="display: none;">
+        <h1>About the Number of divisors graph</h1>
+        <p>
+            In this visualization a link is made between a number and the quantity of
+            divisors it has, for example:
+        </p>
+        <p>42 has 8 divisors: 1, 2, 3, 4, 6, 7, 21 and 42, so the link is 42 --> 8.</p>
+        <p>
+            What makes this graph useful is being able to show the orbits of the divisor
+            function, that is, the path created by repeatedly applying the function. Like
+            so:
+        </p>
+        42 --> 8 --> 4 --> 3 --> 2
+        <p>
+            Ending in 2, because it has 2 divisors. In the above example the orbit has
+            length 4.
+        </p>
+    </section>
+
+    <section id="orbit" style="display: none;">
+        <h1>About the divisor function orbit graph</h1>
+        <p>
+            In this visualization the result from the orbits of the previous study is
+            depicted. Here nodes are linked in the following manner:
+        </p>
+        <p>A --> B means that A has B steps to get to ne node 2, using the example from
+            the previous graph:
+        </p>
+        <p>As the number 42 the path 42 --> 8 --> 4 --> 3 --> 2, then its orbit has
+            length 4, so the link 42 --> 4 is added.
+        </p>
+    </section>
+
+    <section id="gaps" style="display: none;">
+        <h1>About the prime gaps graph</h1>
+        <p>
+            In this visualization a link is made between the prime index and the difference
+	    from the previous prime:
+        </p>
+        <p>
+	    The second prime is 3, and the difference from the first prime, which is 2, is 1,
+	    so the link is 2 --> 1 (the index, 2, links to the difference, 1).
+	</p>
+        <p>
+	    This is a classic graph in the prime gaps subject, using the index instead of
+	    the prime itself makes it connected. 
+        </p>
+    </section>
+
+    <section>
+        <h2>Conclusions</h2>
+        <p>This study shows that the two Goldbach based graphs are very different
+            for the divisor based ones, the latter having a structure that resembles a fractal.
+        </p>
+        <p>The number of divisors property has shown to be a very strong grouping property, as
+            in second study the number of divisors where closely related to the orbit length.
+        </p>
+        <p>Some number properties have easily been spotted in the two divisor based studies:
+            powers of numbers stayed close to the same nodes.
+        </p>
+	<p>A surprising fact is the similarity between the prime gaps and the divisors graphs,
+	    certainly this is a topic for further invetigation.
+	</p>
+    </section>
+    <section>
+        <h2>Further studies</h2>
+        <h3>Degree distribution</h3>
+        <p>An important measure for graph classification is the distribution of degrees,
+            On the first sight, Goldbach based graphs have more distributed links, whereas
+            divisor function based graphs have nodes with concentrated links.
+        </p>
+        <h3>Mean degree change with number of nodes</h3>
+        <p>Mean degree is the "central" indicator for the study of graph centrality, the
+            Goldbach based graphs show much lower centrality than the divisors based, studying
+            how the centrality changes when a new node is added is on topic for extending.
+        </p>
+        <h3>Orbit length</h3>
+        <p>
+            One interesting study is to model the length of the orbit with the number of nodes.
+        </p>
+        <h3>Relation between the divisors of composite numbers and the Goldbach primes</h3>
+        <p>The second graph needs a more deep study to discover if there is a relation
+            between the number of divisors of a composite number and the 2 primes that
+            add to it.
+        </p>
+        <p>The first question to be answered in this case is: which pair of primes to use?
+            As the number of ways of summing to an even composite number increases, which
+            pair should be considered, here the pair with the least prime was chosen.
+        </p>
+    </section>
+    <script>
+        var selection = "prime";
+
+        const Graph = ForceGraph3D()(document.getElementById("3d-graph"));
+        const datasets = {
+            prime: 'prime-graph.json',
+            composite: 'composite-graph.json',
+            divisor: 'divisor-graph.json',
+            gaps: 'gaps-graph.json',
+            orbit: 'orbit-graph.json'
+        }
+
+        Graph
+            .height(520)
+            .jsonUrl('prime-graph.json')
+            .nodeLabel('id')
+            .nodeAutoColorBy('group')
+            .enableNodeDrag(false)
+            .numDimensions(3);
+
+        document.getElementById(selection).style.display = "block";
+
+        const toggleData = function (sel) {
+            document.getElementById(selection).style.display = "none";
+            document.getElementById(sel).style.display = "block";
+            selection = sel;
+
+            Graph
+                .resetProps()
+                .height(520)
+                .jsonUrl(datasets[sel])
+                .nodeLabel('id')
+                .nodeAutoColorBy('group')
+                .enableNodeDrag(false)
+                .numDimensions(3);
+        }
+    </script>
+</body>
